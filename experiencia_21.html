@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Misterios del Río Magdalena en Barranquilla</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="paranormal.html" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Misterios del Río Magdalena en Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Historia y relatos populares
+        </p>
+
+        <!-- Imagen principal -->
+        <img
+            src="img/magdalena.jpg"
+            alt="Río Magdalena a su paso por Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">Un río lleno de historias</h2>
+
+        <p data-i18n="parrafo1">
+            El río Magdalena ha sido uno de los grandes protagonistas
+            de la historia de Barranquilla. Durante siglos, sus aguas
+            sirvieron como vía de comunicación, comercio y transporte
+            entre diferentes regiones de Colombia. La ciudad creció
+            alrededor de sus caños y de la actividad portuaria,
+            convirtiendo al río en parte fundamental de su identidad.
+            Sin embargo, detrás de su importancia histórica también
+            existe un paisaje lleno de relatos, recuerdos y misterios
+            que todavía despiertan la imaginación de sus habitantes.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Uno de los lugares más sorprendentes es Bocas de Ceniza,
+            donde las aguas del río Magdalena se encuentran con el
+            mar Caribe. Este escenario ha sido testigo de cambios
+            naturales, transformaciones del paisaje y grandes obras
+            de ingeniería. La fuerza de las corrientes, los sedimentos
+            y el encuentro de dos masas de agua han alimentado durante
+            generaciones la fascinación por este lugar, considerado
+            una de las entradas más emblemáticas de Barranquilla.
+        </p>
+
+        <p data-i18n="parrafo3">
+            El pasado del río también está relacionado con los antiguos
+            barcos de vapor que transportaban pasajeros y mercancías.
+            Durante décadas, estas embarcaciones recorrieron sus aguas,
+            conectando pueblos y ciudades. Historias de largas travesías,
+            embarcaciones desaparecidas de la vida cotidiana y recuerdos
+            de navegantes forman parte de la memoria fluvial. Uno de
+            aquellos barcos, el vapor David Arango, pasó a la historia
+            después de sufrir un incendio en 1961.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Al caer la noche, el río adquiere una apariencia diferente.
+            Sus extensas orillas, los antiguos caños y las zonas cercanas
+            a la desembocadura crean un ambiente que invita a imaginar
+            historias sobre embarcaciones, viajeros y acontecimientos
+            del pasado. En diferentes comunidades ribereñas sobreviven
+            relatos transmitidos de generación en generación, donde
+            el agua aparece como escenario de encuentros inexplicables,
+            advertencias y sucesos difíciles de olvidar. Estos relatos
+            hacen parte de la tradición oral y no deben confundirse
+            con acontecimientos históricamente comprobados.
+        </p>
+
+        <p data-i18n="parrafo5">
+            Hoy, el río Magdalena continúa siendo un símbolo de la
+            memoria y la identidad de Barranquilla. Lugares como el
+            Gran Malecón, el antiguo Muelle de la Intendencia Fluvial
+            y Bocas de Ceniza permiten acercarse a su historia.
+            Más allá de su importancia económica y ambiental, el río
+            conserva preguntas sobre su pasado, sus transformaciones
+            y las historias de quienes han vivido junto a sus aguas.
+        </p>
+
+        <!-- Lugares de interés -->
+        <h2 data-i18n="tituloLugares">Lugares para descubrir sus misterios</h2>
+
+        <p data-i18n="lugar1">
+            <strong>Bocas de Ceniza:</strong> el encuentro entre el río
+            Magdalena y el mar Caribe, escenario de transformaciones
+            naturales y grandes obras de ingeniería.
+        </p>
+
+        <p data-i18n="lugar2">
+            <strong>Gran Malecón:</strong> un espacio para contemplar
+            el río y conocer su relación con el desarrollo de la ciudad.
+        </p>
+
+        <p data-i18n="lugar3">
+            <strong>Muelle de la Intendencia Fluvial:</strong> una
+            construcción histórica que recuerda el pasado portuario
+            y comercial de Barranquilla.
+        </p>
+
+        <p data-i18n="lugar4">
+            <strong>Caño Los Tramposos:</strong> un paisaje fluvial
+            relacionado con la antigua red de caños y la historia
+            portuaria de la ciudad.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes y referencias</h2>
+
+        <p data-i18n="referencia1">
+            Museo Nacional de Colombia. Río Magdalena: Navegando
+            por una nación. Historia, navegación y cultura del río.
+        </p>
+
+        <a
+            href="https://www.museonacional.gov.co/sitio/magdalena/magdario.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            Universidad del Norte. Un río difícil. El Magdalena:
+            historia ambiental, navegabilidad y desarrollo.
+        </p>
+
+        <a
+            href="https://rcientificas.uninorte.edu.co/memorias/es/article/view/7946"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar investigación
+        </a>
+
+        <p data-i18n="referencia3">
+            Visit Barranquilla. Ruta Fluvial: memoria histórica,
+            antiguos muelles y relación de la ciudad con el río.
+        </p>
+
+        <a
+            href="https://visit.barranquilla.gov.co/lugares/rutas-patrimoniales/ruta-fluvial"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar ruta patrimonial
+        </a>
+
+        <p data-i18n="referencia4">
+            Cámara de Comercio de Barranquilla. Historia de
+            Bocas de Ceniza y su importancia para la ciudad.
+        </p>
+
+        <a
+            href="https://www.camarabaq.org.co/bocas-de-ceniza/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Consultar fuente histórica
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Misterios del Río Magdalena en Barranquilla",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver",
+
+                tituloPrincipal: "Misterios del Río Magdalena en Barranquilla",
+
+                categoria: "Lugares Misteriosos / Historia y relatos populares",
+
+                imagenAlt: "Río Magdalena a su paso por Barranquilla",
+
+                tituloHistoria: "Un río lleno de historias",
+
+                parrafo1:
+                    "El río Magdalena ha sido uno de los grandes protagonistas de la historia de Barranquilla. Durante siglos, sus aguas sirvieron como vía de comunicación, comercio y transporte entre diferentes regiones de Colombia. La ciudad creció alrededor de sus caños y de la actividad portuaria, convirtiendo al río en parte fundamental de su identidad. Sin embargo, detrás de su importancia histórica también existe un paisaje lleno de relatos, recuerdos y misterios que todavía despiertan la imaginación de sus habitantes.",
+
+                parrafo2:
+                    "Uno de los lugares más sorprendentes es Bocas de Ceniza, donde las aguas del río Magdalena se encuentran con el mar Caribe. Este escenario ha sido testigo de cambios naturales, transformaciones del paisaje y grandes obras de ingeniería. La fuerza de las corrientes, los sedimentos y el encuentro de dos masas de agua han alimentado durante generaciones la fascinación por este lugar, considerado una de las entradas más emblemáticas de Barranquilla.",
+
+                parrafo3:
+                    "El pasado del río también está relacionado con los antiguos barcos de vapor que transportaban pasajeros y mercancías. Durante décadas, estas embarcaciones recorrieron sus aguas, conectando pueblos y ciudades. Historias de largas travesías, embarcaciones desaparecidas de la vida cotidiana y recuerdos de navegantes forman parte de la memoria fluvial. Uno de aquellos barcos, el vapor David Arango, pasó a la historia después de sufrir un incendio en 1961.",
+
+                parrafo4:
+                    "Al caer la noche, el río adquiere una apariencia diferente. Sus extensas orillas, los antiguos caños y las zonas cercanas a la desembocadura crean un ambiente que invita a imaginar historias sobre embarcaciones, viajeros y acontecimientos del pasado. En diferentes comunidades ribereñas sobreviven relatos transmitidos de generación en generación, donde el agua aparece como escenario de encuentros inexplicables, advertencias y sucesos difíciles de olvidar. Estos relatos hacen parte de la tradición oral y no deben confundirse con acontecimientos históricamente comprobados.",
+
+                parrafo5:
+                    "Hoy, el río Magdalena continúa siendo un símbolo de la memoria y la identidad de Barranquilla. Lugares como el Gran Malecón, el antiguo Muelle de la Intendencia Fluvial y Bocas de Ceniza permiten acercarse a su historia. Más allá de su importancia económica y ambiental, el río conserva preguntas sobre su pasado, sus transformaciones y las historias de quienes han vivido junto a sus aguas.",
+
+                tituloLugares: "Lugares para descubrir sus misterios",
+
+                lugar1:
+                    "Bocas de Ceniza: el encuentro entre el río Magdalena y el mar Caribe, escenario de transformaciones naturales y grandes obras de ingeniería.",
+
+                lugar2:
+                    "Gran Malecón: un espacio para contemplar el río y conocer su relación con el desarrollo de la ciudad.",
+
+                lugar3:
+                    "Muelle de la Intendencia Fluvial: una construcción histórica que recuerda el pasado portuario y comercial de Barranquilla.",
+
+                lugar4:
+                    "Caño Los Tramposos: un paisaje fluvial relacionado con la antigua red de caños y la historia portuaria de la ciudad.",
+
+                tituloFuente: "Fuentes y referencias",
+
+                referencia1:
+                    "Museo Nacional de Colombia. Río Magdalena: Navegando por una nación. Historia, navegación y cultura del río.",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "Universidad del Norte. Un río difícil. El Magdalena: historia ambiental, navegabilidad y desarrollo.",
+
+                consultarFuente2: "Consultar investigación",
+
+                referencia3:
+                    "Visit Barranquilla. Ruta Fluvial: memoria histórica, antiguos muelles y relación de la ciudad con el río.",
+
+                consultarFuente3: "Consultar ruta patrimonial",
+
+                referencia4:
+                    "Cámara de Comercio de Barranquilla. Historia de Bocas de Ceniza y su importancia para la ciudad.",
+
+                consultarFuente4: "Consultar fuente histórica"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "Mysteries of the Magdalena River in Barranquilla",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to",
+
+                tituloPrincipal: "Mysteries of the Magdalena River in Barranquilla",
+
+                categoria: "Mysterious Places / History and Popular Stories",
+
+                imagenAlt: "Magdalena River as it passes through Barranquilla",
+
+                tituloHistoria: "A River Full of Stories",
+
+                parrafo1:
+                    "The Magdalena River has been one of the main protagonists in the history of Barranquilla. For centuries, its waters served as a route for communication, trade, and transportation between different regions of Colombia. The city grew around its waterways and port activities, making the river a fundamental part of its identity. However, beyond its historical importance, there is also a landscape filled with stories, memories, and mysteries that continue to capture the imagination of its inhabitants.",
+
+                parrafo2:
+                    "One of the most remarkable places is Bocas de Ceniza, where the waters of the Magdalena River meet the Caribbean Sea. This setting has witnessed natural changes, landscape transformations, and major engineering projects. The strength of the currents, the sediments, and the meeting of two bodies of water have fueled generations of fascination with this place, considered one of Barranquilla's most emblematic gateways.",
+
+                parrafo3:
+                    "The river's past is also connected to the old steamships that transported passengers and goods. For decades, these vessels traveled along its waters, connecting towns and cities. Stories of long journeys, vessels that disappeared from everyday life, and memories of navigators are part of the river's heritage. One of those ships, the steamship David Arango, became part of history after suffering a fire in 1961.",
+
+                parrafo4:
+                    "As night falls, the river takes on a different appearance. Its extensive banks, old waterways, and areas near the river mouth create an atmosphere that invites people to imagine stories about vessels, travelers, and events from the past. In different riverside communities, stories passed down from generation to generation have survived, with the water serving as the setting for unexplained encounters, warnings, and unforgettable events. These accounts are part of oral tradition and should not be confused with historically verified events.",
+
+                parrafo5:
+                    "Today, the Magdalena River remains a symbol of Barranquilla's memory and identity. Places such as the Gran Malecón, the old Intendencia Fluvial Wharf, and Bocas de Ceniza offer opportunities to explore its history. Beyond its economic and environmental importance, the river preserves questions about its past, its transformations, and the stories of those who have lived alongside its waters.",
+
+                tituloLugares: "Places to Discover Its Mysteries",
+
+                lugar1:
+                    "Bocas de Ceniza: the meeting point between the Magdalena River and the Caribbean Sea, a setting of natural transformations and major engineering works.",
+
+                lugar2:
+                    "Gran Malecón: a place to admire the river and discover its relationship with the city's development.",
+
+                lugar3:
+                    "Intendencia Fluvial Wharf: a historic structure that recalls Barranquilla's port and commercial past.",
+
+                lugar4:
+                    "Caño Los Tramposos: a riverside landscape connected to the city's old network of waterways and port history.",
+
+                tituloFuente: "Sources and References",
+
+                referencia1:
+                    "National Museum of Colombia. Magdalena River: Sailing Through a Nation. History, navigation, and river culture.",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "Universidad del Norte. A Difficult River. The Magdalena: Environmental History, Navigability, and Development.",
+
+                consultarFuente2: "View research",
+
+                referencia3:
+                    "Visit Barranquilla. River Route: historical memory, old wharves, and the city's relationship with the river.",
+
+                consultarFuente3: "View heritage route",
+
+                referencia4:
+                    "Barranquilla Chamber of Commerce. History of Bocas de Ceniza and its importance to the city.",
+
+                consultarFuente4: "View historical source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

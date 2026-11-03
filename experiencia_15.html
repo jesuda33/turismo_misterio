@@ -1,0 +1,509 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hospital General de Barranquilla</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="lugares.html" data-i18n="volver">
+            ← Volver a Lugares Misteriosos
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Hospital General de Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Historias paranormales
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/hospital_b.jpg"
+            alt="Antigua edificación del Hospital General de Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            En el barrio San Roque de Barranquilla se encuentra uno de
+            los escenarios más importantes de la historia médica de la
+            ciudad: el antiguo Hospital General de Barranquilla. Sus
+            instalaciones fueron testigo de más de un siglo de atención
+            a pacientes, transformaciones arquitectónicas y acontecimientos
+            que marcaron la evolución de los servicios de salud en el
+            Caribe colombiano.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Los antecedentes de esta institución se remontan a finales
+            del siglo XIX. En 1871, después de las dificultades sanitarias
+            que enfrentaba Barranquilla y de diferentes iniciativas
+            ciudadanas, se impulsó la creación de un hospital de caridad.
+            La Sociedad Hermanos de la Caridad desempeñó un papel
+            fundamental en este proyecto, que buscaba ofrecer atención
+            a una población que necesitaba mejores servicios médicos.
+        </p>
+
+        <p data-i18n="parrafo3">
+            El hospital comenzó a funcionar oficialmente el 20 de febrero
+            de 1876, en una edificación ubicada en el sector que hoy
+            corresponde al centro histórico de Barranquilla. Con el paso
+            de los años, la institución amplió sus servicios y se convirtió
+            en un referente de la atención médica regional. Durante
+            diferentes etapas de su historia recibió a numerosos pacientes
+            y enfrentó las dificultades sanitarias, sociales y económicas
+            de la ciudad.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Su antigua arquitectura también guarda parte de su identidad.
+            La edificación presentó características de los estilos
+            republicano y colonial, con corredores, pabellones y espacios
+            que reflejaban las formas de construcción hospitalaria de
+            otras épocas. Una parte importante de su estructura fue
+            construida antes de 1920 y posteriormente experimentó
+            diferentes intervenciones y procesos de recuperación
+            patrimonial.
+        </p>
+
+        <!-- Leyenda paranormal -->
+        <h2 data-i18n="tituloLeyenda">
+            La leyenda de la monja del hospital
+        </h2>
+
+        <p data-i18n="parrafo5">
+            Entre los relatos que rodean la historia del antiguo Hospital
+            General de Barranquilla destaca la aparición de una misteriosa
+            monja. Durante décadas, diferentes personas han contado
+            historias sobre una religiosa que recorría los pasillos
+            y pabellones del centro médico, especialmente durante
+            las horas de la noche.
+        </p>
+
+        <p data-i18n="parrafo6">
+            Según la tradición oral, la figura de la monja aparecía
+            junto a los pacientes hospitalizados. Algunos relatos
+            cuentan que se acercaba a sus camas y permanecía en
+            silencio mientras rezaba por su recuperación. Después
+            de terminar sus oraciones, desaparecía sin dejar rastro,
+            como si nunca hubiera estado allí.
+        </p>
+
+        <p data-i18n="parrafo7">
+            Una de las versiones más conocidas fue publicada por el
+            cronista Carlos Herrera Delgans en abril de 2022. En su
+            relato recoge testimonios y recuerdos de distintas
+            generaciones sobre el supuesto espectro de la religiosa.
+            También menciona la experiencia narrada por un médico
+            que aseguró haber presenciado un encuentro inexplicable
+            dentro de las instalaciones del hospital.
+        </p>
+
+        <p data-i18n="parrafo8">
+            La historia también llegó a la radio internacional.
+            En septiembre de 2011, el programa español Milenio 3,
+            de la Cadena SER, presentó el testimonio de un médico
+            colombiano que relató una experiencia paranormal
+            relacionada con la leyenda de la monja del Hospital
+            General de Barranquilla.
+        </p>
+
+        <!-- El misterio -->
+        <h2 data-i18n="tituloMisterio">
+            Entre la historia y lo inexplicable
+        </h2>
+
+        <p data-i18n="parrafo9">
+            ¿Quién era aquella religiosa? ¿Se trataba del recuerdo
+            de alguna de las monjas que dedicaron su vida al cuidado
+            de los enfermos o de una historia que fue creciendo con
+            el paso de los años? Son preguntas que alimentan la
+            curiosidad alrededor de esta leyenda.
+        </p>
+
+        <p data-i18n="parrafo10">
+            Aunque no existen pruebas que confirmen la aparición
+            sobrenatural, el relato permanece en la memoria popular
+            de Barranquilla. Los antiguos pasillos, las historias
+            de los pacientes y el recuerdo de las religiosas que
+            trabajaron en el hospital forman parte de una narración
+            que mezcla la historia de la medicina con el misterio.
+        </p>
+
+        <p data-i18n="parrafo11">
+            Actualmente, el lugar continúa siendo parte de la
+            infraestructura pública de salud de Barranquilla,
+            con procesos de modernización y recuperación de su
+            patrimonio arquitectónico. Su historia demuestra
+            que algunos lugares no solamente conservan recuerdos
+            de quienes los habitaron, sino también relatos que
+            continúan despertando preguntas entre quienes
+            se interesan por los fenómenos paranormales.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes</h2>
+
+        <p data-i18n="referencia1">
+            Universidad Simón Bolívar. (2000). Historia del hospital
+            de Barranquilla entre 1871 a 1950.
+        </p>
+
+        <a
+            href="https://bonga.unisimon.edu.co/items/bd7845b7-468b-4934-a106-a2753861bd1c"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar investigación
+        </a>
+
+        <p data-i18n="referencia2">
+            Barrios Mendoza, C. A. (2014). Rehabilitación del hospital
+            general de Barranquilla: Para el rescate y conservación
+            del patrimonio arquitectónico de la ciudad. Revista Módulo,
+            Universidad de la Costa.
+        </p>
+
+        <a
+            href="https://revistascientificas.cuc.edu.co/moduloarquitecturacuc/article/view/88"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar investigación
+        </a>
+
+        <p data-i18n="referencia3">
+            Herrera Delgans, C. (2022). Un fantasma ronda el Hospital
+            General de Barranquilla. En Guardia.
+        </p>
+
+        <a
+            href="https://www.enguardia.co/un-fantasma-ronda-el-hospital-general-de-barranquilla/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar relato paranormal
+        </a>
+
+        <p data-i18n="referencia4">
+            Cadena SER. (2011). Milenio 3: Un extraño encuentro.
+            Testimonio sobre la leyenda de la monja del Hospital
+            General de Barranquilla.
+        </p>
+
+        <a
+            href="https://cadenaser.com/programa/2011/09/11/milenio_3/1315696628_850215.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Escuchar y consultar relato
+        </a>
+
+        <p data-i18n="referencia5">
+            Alcaldía de Barranquilla. (2020). CAMINO Nuevo Barranquilla,
+            antiguo Hospital General, beneficiará a 80.000 usuarios.
+        </p>
+
+        <a
+            href="https://barranquilla.gov.co/salud/remodelacion-hospital-de-barranquilla"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente5"
+        >
+            Consultar fuente
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Hospital General de Barranquilla",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Lugares Misteriosos",
+
+                tituloPrincipal: "Hospital General de Barranquilla",
+
+                categoria: "Lugares Misteriosos / Historias paranormales",
+
+                imagenAlt: "Antigua edificación del Hospital General de Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "En el barrio San Roque de Barranquilla se encuentra uno de los escenarios más importantes de la historia médica de la ciudad: el antiguo Hospital General de Barranquilla. Sus instalaciones fueron testigo de más de un siglo de atención a pacientes, transformaciones arquitectónicas y acontecimientos que marcaron la evolución de los servicios de salud en el Caribe colombiano.",
+
+                parrafo2:
+                    "Los antecedentes de esta institución se remontan a finales del siglo XIX. En 1871, después de las dificultades sanitarias que enfrentaba Barranquilla y de diferentes iniciativas ciudadanas, se impulsó la creación de un hospital de caridad. La Sociedad Hermanos de la Caridad desempeñó un papel fundamental en este proyecto, que buscaba ofrecer atención a una población que necesitaba mejores servicios médicos.",
+
+                parrafo3:
+                    "El hospital comenzó a funcionar oficialmente el 20 de febrero de 1876, en una edificación ubicada en el sector que hoy corresponde al centro histórico de Barranquilla. Con el paso de los años, la institución amplió sus servicios y se convirtió en un referente de la atención médica regional. Durante diferentes etapas de su historia recibió a numerosos pacientes y enfrentó las dificultades sanitarias, sociales y económicas de la ciudad.",
+
+                parrafo4:
+                    "Su antigua arquitectura también guarda parte de su identidad. La edificación presentó características de los estilos republicano y colonial, con corredores, pabellones y espacios que reflejaban las formas de construcción hospitalaria de otras épocas. Una parte importante de su estructura fue construida antes de 1920 y posteriormente experimentó diferentes intervenciones y procesos de recuperación patrimonial.",
+
+                tituloLeyenda: "La leyenda de la monja del hospital",
+
+                parrafo5:
+                    "Entre los relatos que rodean la historia del antiguo Hospital General de Barranquilla destaca la aparición de una misteriosa monja. Durante décadas, diferentes personas han contado historias sobre una religiosa que recorría los pasillos y pabellones del centro médico, especialmente durante las horas de la noche.",
+
+                parrafo6:
+                    "Según la tradición oral, la figura de la monja aparecía junto a los pacientes hospitalizados. Algunos relatos cuentan que se acercaba a sus camas y permanecía en silencio mientras rezaba por su recuperación. Después de terminar sus oraciones, desaparecía sin dejar rastro, como si nunca hubiera estado allí.",
+
+                parrafo7:
+                    "Una de las versiones más conocidas fue publicada por el cronista Carlos Herrera Delgans en abril de 2022. En su relato recoge testimonios y recuerdos de distintas generaciones sobre el supuesto espectro de la religiosa. También menciona la experiencia narrada por un médico que aseguró haber presenciado un encuentro inexplicable dentro de las instalaciones del hospital.",
+
+                parrafo8:
+                    "La historia también llegó a la radio internacional. En septiembre de 2011, el programa español Milenio 3, de la Cadena SER, presentó el testimonio de un médico colombiano que relató una experiencia paranormal relacionada con la leyenda de la monja del Hospital General de Barranquilla.",
+
+                tituloMisterio: "Entre la historia y lo inexplicable",
+
+                parrafo9:
+                    "¿Quién era aquella religiosa? ¿Se trataba del recuerdo de alguna de las monjas que dedicaron su vida al cuidado de los enfermos o de una historia que fue creciendo con el paso de los años? Son preguntas que alimentan la curiosidad alrededor de esta leyenda.",
+
+                parrafo10:
+                    "Aunque no existen pruebas que confirmen la aparición sobrenatural, el relato permanece en la memoria popular de Barranquilla. Los antiguos pasillos, las historias de los pacientes y el recuerdo de las religiosas que trabajaron en el hospital forman parte de una narración que mezcla la historia de la medicina con el misterio.",
+
+                parrafo11:
+                    "Actualmente, el lugar continúa siendo parte de la infraestructura pública de salud de Barranquilla, con procesos de modernización y recuperación de su patrimonio arquitectónico. Su historia demuestra que algunos lugares no solamente conservan recuerdos de quienes los habitaron, sino también relatos que continúan despertando preguntas entre quienes se interesan por los fenómenos paranormales.",
+
+                tituloFuente: "Fuentes",
+
+                referencia1:
+                    "Universidad Simón Bolívar. (2000). Historia del hospital de Barranquilla entre 1871 a 1950.",
+
+                consultarFuente1: "Consultar investigación",
+
+                referencia2:
+                    "Barrios Mendoza, C. A. (2014). Rehabilitación del hospital general de Barranquilla: Para el rescate y conservación del patrimonio arquitectónico de la ciudad. Revista Módulo, Universidad de la Costa.",
+
+                consultarFuente2: "Consultar investigación",
+
+                referencia3:
+                    "Herrera Delgans, C. (2022). Un fantasma ronda el Hospital General de Barranquilla. En Guardia.",
+
+                consultarFuente3: "Consultar relato paranormal",
+
+                referencia4:
+                    "Cadena SER. (2011). Milenio 3: Un extraño encuentro. Testimonio sobre la leyenda de la monja del Hospital General de Barranquilla.",
+
+                consultarFuente4: "Escuchar y consultar relato",
+
+                referencia5:
+                    "Alcaldía de Barranquilla. (2020). CAMINO Nuevo Barranquilla, antiguo Hospital General, beneficiará a 80.000 usuarios.",
+
+                consultarFuente5: "Consultar fuente"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "General Hospital of Barranquilla",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to Mysterious Places",
+
+                tituloPrincipal: "General Hospital of Barranquilla",
+
+                categoria: "Mysterious Places / Paranormal Stories",
+
+                imagenAlt: "Old building of the General Hospital of Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "In the San Roque neighborhood of Barranquilla stands one of the most important settings in the city's medical history: the former General Hospital of Barranquilla. Its facilities witnessed more than a century of patient care, architectural transformations, and events that shaped the development of healthcare services in the Colombian Caribbean.",
+
+                parrafo2:
+                    "The institution's origins date back to the late 19th century. In 1871, following the sanitary difficulties faced by Barranquilla and several civic initiatives, the creation of a charity hospital was promoted. The Society of the Brothers of Charity played a fundamental role in this project, which aimed to provide care for a population in need of better medical services.",
+
+                parrafo3:
+                    "The hospital officially began operating on February 20, 1876, in a building located in what is now Barranquilla's historic center. Over the years, the institution expanded its services and became a regional healthcare reference. Throughout different periods of its history, it received numerous patients and faced the city's health, social, and economic challenges.",
+
+                parrafo4:
+                    "Its old architecture also preserves part of its identity. The building featured Republican and Colonial architectural influences, with corridors, wards, and spaces reflecting hospital construction styles from earlier periods. A significant portion of its structure was built before 1920 and later underwent several interventions and heritage restoration processes.",
+
+                tituloLeyenda: "The Legend of the Hospital Nun",
+
+                parrafo5:
+                    "Among the stories surrounding the history of the former General Hospital of Barranquilla is the appearance of a mysterious nun. For decades, different people have shared accounts of a religious sister who wandered through the hospital's corridors and wards, especially during the night.",
+
+                parrafo6:
+                    "According to oral tradition, the nun's figure appeared beside hospitalized patients. Some accounts say she approached their beds and remained silent while praying for their recovery. After finishing her prayers, she disappeared without leaving a trace, as if she had never been there.",
+
+                parrafo7:
+                    "One of the best-known versions was published by journalist and chronicler Carlos Herrera Delgans in April 2022. His account collects testimonies and memories from different generations about the supposed apparition of the religious sister. He also mentions the experience described by a doctor who claimed to have witnessed an unexplained encounter inside the hospital.",
+
+                parrafo8:
+                    "The story also reached international radio. In September 2011, the Spanish radio program Milenio 3, broadcast by Cadena SER, presented the testimony of a Colombian doctor who described a paranormal experience connected to the legend of the nun at the General Hospital of Barranquilla.",
+
+                tituloMisterio: "Between History and the Unexplained",
+
+                parrafo9:
+                    "Who was that religious sister? Was she the memory of one of the nuns who dedicated her life to caring for the sick, or a story that grew over the years? These are questions that continue to spark curiosity about this legend.",
+
+                parrafo10:
+                    "Although there is no evidence confirming the supernatural apparition, the story remains part of Barranquilla's popular memory. The old corridors, patients' stories, and memories of the religious sisters who worked at the hospital form part of a narrative that blends medical history with mystery.",
+
+                parrafo11:
+                    "Today, the site remains part of Barranquilla's public healthcare infrastructure, with modernization and architectural heritage restoration projects. Its history shows that some places preserve not only the memories of those who lived and worked there, but also stories that continue to raise questions among those interested in paranormal phenomena.",
+
+                tituloFuente: "Sources",
+
+                referencia1:
+                    "Universidad Simón Bolívar. (2000). History of the Hospital of Barranquilla between 1871 and 1950.",
+
+                consultarFuente1: "View research",
+
+                referencia2:
+                    "Barrios Mendoza, C. A. (2014). Rehabilitation of the General Hospital of Barranquilla: Preserving and restoring the city's architectural heritage. Módulo Journal, Universidad de la Costa.",
+
+                consultarFuente2: "View research",
+
+                referencia3:
+                    "Herrera Delgans, C. (2022). A Ghost Haunts the General Hospital of Barranquilla. En Guardia.",
+
+                consultarFuente3: "Read paranormal account",
+
+                referencia4:
+                    "Cadena SER. (2011). Milenio 3: A Strange Encounter. Testimony about the legend of the nun at the General Hospital of Barranquilla.",
+
+                consultarFuente4: "Listen and read account",
+
+                referencia5:
+                    "Barranquilla City Hall. (2020). New CAMINO Barranquilla, former General Hospital, to benefit 80,000 users.",
+
+                consultarFuente5: "View source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

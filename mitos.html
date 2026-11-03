@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mitos y Leyendas | Archivos Misteriosos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Fenómenos Paranormales</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <h1 data-i18n="tituloPrincipal">Mitos y Leyendas</h1>
+
+
+        <!-- Primera subsección: Casos documentados -->
+
+        <section>
+
+            <h2 data-i18n="casosDocumentados">Casos documentados</h2>
+
+            <article>
+
+                <h3>La Novia de Puerto Colombia</h3>
+
+                <p data-i18n="descripcionNovia">
+                    Una leyenda relacionada con una misteriosa aparición
+                    en Puerto Colombia.
+                </p>
+
+                <a href="experiencia_1.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Castillo de la Alborada</h3>
+
+                <p data-i18n="ubicacionCastillo">
+                    Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_2.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Túneles en Barranquilla</h3>
+
+                <p data-i18n="ubicacionTuneles">
+                    Túneles del centro histórico, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_3.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- Segunda subsección: Historias de personas -->
+
+        <section>
+
+            <h2 data-i18n="historiasPersonas">Historias de personas</h2>
+
+            <article>
+
+                <h3>Historias de Barrio Abajo</h3>
+
+                <p data-i18n="ubicacionBarrio">
+                    Barrio Abajo, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_4.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>El relato de la noche en Malambo</h3>
+
+                <p data-i18n="ubicacionMalambo">
+                    Ciénaga de Malambo, Malambo, Atlántico.
+                </p>
+
+                <a href="experiencia_5.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Los secretos ancestrales de Tubará</h3>
+
+                <p data-i18n="ubicacionTubara">
+                    Territorio ancestral de Tubará, Tubará, Atlántico.
+                </p>
+
+                <a href="experiencia_6.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+                tituloPagina: "Mitos y Leyendas | Archivos Misteriosos",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Fenómenos Paranormales",
+
+                tituloPrincipal: "Mitos y Leyendas",
+
+                casosDocumentados: "Casos documentados",
+
+                descripcionNovia:
+                    "Una leyenda relacionada con una misteriosa aparición en Puerto Colombia.",
+
+                ubicacionCastillo:
+                    "Barranquilla, Atlántico.",
+
+                ubicacionTuneles:
+                    "Túneles del centro histórico, Barranquilla, Atlántico.",
+
+                historiasPersonas:
+                    "Historias de personas",
+
+                ubicacionBarrio:
+                    "Barrio Abajo, Barranquilla, Atlántico.",
+
+                ubicacionMalambo:
+                    "Ciénaga de Malambo, Malambo, Atlántico.",
+
+                ubicacionTubara:
+                    "Territorio ancestral de Tubará, Tubará, Atlántico.",
+
+                verExperiencia:
+                    "Ver experiencia"
+            },
+
+
+            en: {
+                tituloPagina: "Myths and Legends | Mysterious Archives",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal Phenomena",
+
+                tituloPrincipal: "Myths and Legends",
+
+                casosDocumentados: "Documented Cases",
+
+                descripcionNovia:
+                    "A legend about a mysterious apparition in Puerto Colombia.",
+
+                ubicacionCastillo:
+                    "Barranquilla, Atlántico.",
+
+                ubicacionTuneles:
+                    "Tunnels in the historic center of Barranquilla, Atlántico.",
+
+                historiasPersonas:
+                    "Personal Stories",
+
+                ubicacionBarrio:
+                    "Barrio Abajo, Barranquilla, Atlántico.",
+
+                ubicacionMalambo:
+                    "Malambo Lagoon, Malambo, Atlántico.",
+
+                ubicacionTubara:
+                    "Ancestral territory of Tubará, Tubará, Atlántico.",
+
+                verExperiencia:
+                    "View Experience"
+            }
+
+        };
+
+
+        // Cambiar idioma
+        function cambiarIdioma(idioma) {
+
+            // Evitar idiomas no definidos
+            if (!traducciones[idioma]) return;
+
+            // Actualizar textos
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Actualizar título de la página
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar botones activos
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Recuperar idioma guardado o utilizar español
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

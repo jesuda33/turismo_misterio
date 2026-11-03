@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lugares Misteriosos | Archivos Misteriosos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" data-i18n="navInicio">Inicio</a>
+            <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+            <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+            <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+            <a href="paranormal.html" data-i18n="navParanormal">Fenómenos Paranormales</a>
+
+            <!-- Selector de idioma -->
+            <div class="selector-idioma">
+                <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+                <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 data-i18n="tituloPrincipal">Lugares misteriosos</h1>
+
+        <!-- Primera subsección: Casos documentados -->
+
+        <section>
+
+            <h2 data-i18n="casosDocumentados">Casos documentados</h2>
+
+            <article>
+
+                <!-- Experiencia 1 -->
+                <h3>Cementerio Universal</h3>
+
+                <p data-i18n="ubicacionUniversal">
+                    Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_13.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <!-- Experiencia 2 -->
+                <h3>Cementerio Calancala</h3>
+
+                <p data-i18n="ubicacionCalancala">
+                    Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_14.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <!-- Experiencia 3 -->
+                <h3>Hospital de Barranquilla</h3>
+
+                <p data-i18n="ubicacionHospital">
+                    Antiguo Hospital de Barranquilla, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_15.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- Segunda subsección: Historias de personas -->
+
+        <section>
+
+            <h2 data-i18n="historiasPersonas">Historias de personas</h2>
+
+            <article>
+
+                <!-- Experiencia 4 -->
+                <h3>Los muertos de la Universidad Libre</h3>
+
+                <p data-i18n="ubicacionUniversidad">
+                    Universidad Libre, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_16.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <!-- Experiencia 5 -->
+                <h3>Hotel El Prado</h3>
+
+                <p data-i18n="ubicacionHotel">
+                    Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_17.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <!-- Experiencia 6 -->
+                <h3>El Seguro Social antiguo</h3>
+
+                <p data-i18n="ubicacionSeguro">
+                    Antiguo Seguro Social, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_18.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+                tituloPagina: "Lugares Misteriosos | Archivos Misteriosos",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Fenómenos Paranormales",
+
+                tituloPrincipal: "Lugares misteriosos",
+
+                casosDocumentados: "Casos documentados",
+
+                historiasPersonas: "Historias de personas",
+
+                ubicacionUniversal:
+                    "Barranquilla, Atlántico.",
+
+                ubicacionCalancala:
+                    "Barranquilla, Atlántico.",
+
+                ubicacionHospital:
+                    "Antiguo Hospital de Barranquilla, Barranquilla, Atlántico.",
+
+                ubicacionUniversidad:
+                    "Universidad Libre, Barranquilla, Atlántico.",
+
+                ubicacionHotel:
+                    "Barranquilla, Atlántico.",
+
+                ubicacionSeguro:
+                    "Antiguo Seguro Social, Barranquilla, Atlántico.",
+
+                verExperiencia:
+                    "Ver experiencia"
+            },
+
+
+            en: {
+                tituloPagina: "Mysterious Places | Mysterious Archives",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal Phenomena",
+
+                tituloPrincipal: "Mysterious Places",
+
+                casosDocumentados: "Documented Cases",
+
+                historiasPersonas: "Personal Stories",
+
+                ubicacionUniversal:
+                    "Barranquilla, Atlántico, Colombia.",
+
+                ubicacionCalancala:
+                    "Barranquilla, Atlántico, Colombia.",
+
+                ubicacionHospital:
+                    "Former Barranquilla Hospital, Barranquilla, Atlántico, Colombia.",
+
+                ubicacionUniversidad:
+                    "Universidad Libre, Barranquilla, Atlántico, Colombia.",
+
+                ubicacionHotel:
+                    "Barranquilla, Atlántico, Colombia.",
+
+                ubicacionSeguro:
+                    "Former Social Security Hospital, Barranquilla, Atlántico, Colombia.",
+
+                verExperiencia:
+                    "View Experience"
+            }
+
+        };
+
+
+        // Cambiar idioma
+        function cambiarIdioma(idioma) {
+
+            // Evitar idiomas no definidos
+            if (!traducciones[idioma]) return;
+
+            // Actualizar textos
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Actualizar título de la página
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar botones activos
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Recuperar idioma guardado o utilizar español
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

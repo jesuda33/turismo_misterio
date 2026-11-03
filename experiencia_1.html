@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Novia de Puerto Colombia</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="mitos.html" data-i18n="volver">
+            ← Volver a Mitos y Leyendas
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">La Novia de Puerto Colombia</h1>
+
+        <p data-i18n="categoria">
+            Mitos y Leyendas / Casos documentados
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="https://imagenes2.eltiempo.com/files/image_1200_535/uploads/2023/10/30/65404ac35a39c.jpeg"
+            alt="La Novia de Puerto Colombia"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            Cuenta la leyenda que una joven murió el día de su boda
+            después de sufrir un accidente mientras viajaba por una
+            carretera de Puerto Colombia. Desde entonces, la tradición
+            popular relata que su aparición puede encontrarse durante
+            la noche en una zona conocida como la Curva del Diablo.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Según los relatos, la joven aparece vestida de blanco y
+            pide a los conductores que la lleven hacia Puerto Colombia.
+            Quienes aseguran haberla visto cuentan que, después de
+            recogerla, ocurre algo inesperado que convirtió esta
+            historia en una de las leyendas más conocidas de la región.
+        </p>
+
+        <p data-i18n="parrafo3">
+            La historia ha trascendido la tradición oral y también
+            ha llegado al cine. La leyenda inspiró la película
+            <strong>La Novia de Puerto</strong>, rodada en Puerto Colombia,
+            que recrea el misterio alrededor de esta aparición.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Hoy, la historia forma parte del imaginario y patrimonio
+            cultural de Puerto Colombia, donde el relato combina
+            misterio, tradición oral y lugares que todavía despiertan
+            curiosidad entre quienes desean conocer su historia.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuente</h2>
+
+        <p data-i18n="referencia">
+            El Tiempo. (2023). “La novia de Puerto”, estreno de película
+            en el Cine foro de La Estación. El Tiempo.
+        </p>
+
+        <a
+            href="https://www.eltiempo.com/colombia/barranquilla/la-novia-de-puerto-estreno-de-pelicula-en-el-cine-foro-de-la-estacion-821519"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente"
+        >
+            Consultar fuente
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "La Novia de Puerto Colombia",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Mitos y Leyendas",
+
+                tituloPrincipal: "La Novia de Puerto Colombia",
+
+                categoria: "Mitos y Leyendas / Casos documentados",
+
+                imagenAlt: "La Novia de Puerto Colombia",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "Cuenta la leyenda que una joven murió el día de su boda después de sufrir un accidente mientras viajaba por una carretera de Puerto Colombia. Desde entonces, la tradición popular relata que su aparición puede encontrarse durante la noche en una zona conocida como la Curva del Diablo.",
+
+                parrafo2:
+                    "Según los relatos, la joven aparece vestida de blanco y pide a los conductores que la lleven hacia Puerto Colombia. Quienes aseguran haberla visto cuentan que, después de recogerla, ocurre algo inesperado que convirtió esta historia en una de las leyendas más conocidas de la región.",
+
+                parrafo3:
+                    "La historia ha trascendido la tradición oral y también ha llegado al cine. La leyenda inspiró la película La Novia de Puerto, rodada en Puerto Colombia, que recrea el misterio alrededor de esta aparición.",
+
+                parrafo4:
+                    "Hoy, la historia forma parte del imaginario y patrimonio cultural de Puerto Colombia, donde el relato combina misterio, tradición oral y lugares que todavía despiertan curiosidad entre quienes desean conocer su historia.",
+
+                tituloFuente: "Fuente",
+
+                referencia:
+                    "El Tiempo. (2023). “La novia de Puerto”, estreno de película en el Cine foro de La Estación. El Tiempo.",
+
+                consultarFuente: "Consultar fuente"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "The Bride of Puerto Colombia",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to Myths and Legends",
+
+                tituloPrincipal: "The Bride of Puerto Colombia",
+
+                categoria: "Myths and Legends / Documented Cases",
+
+                imagenAlt: "The Bride of Puerto Colombia",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "Legend has it that a young woman died on her wedding day after suffering an accident while traveling along a road in Puerto Colombia. Since then, local tradition tells of her apparition being seen at night in an area known as the Devil's Curve.",
+
+                parrafo2:
+                    "According to the stories, the young woman appears dressed in white and asks drivers to take her to Puerto Colombia. Those who claim to have seen her say that, after picking her up, something unexpected happens, turning this story into one of the region's best-known legends.",
+
+                parrafo3:
+                    "The story has gone beyond oral tradition and has also reached the cinema. The legend inspired the film The Bride of Puerto, shot in Puerto Colombia, which recreates the mystery surrounding this apparition.",
+
+                parrafo4:
+                    "Today, the story is part of the cultural heritage and collective imagination of Puerto Colombia, where mystery, oral tradition, and places that continue to spark curiosity come together.",
+
+                tituloFuente: "Source",
+
+                referencia:
+                    "El Tiempo. (2023). “La novia de Puerto”, film premiere at the Cine foro de La Estación. El Tiempo.",
+
+                consultarFuente: "View source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

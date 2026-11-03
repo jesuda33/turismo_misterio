@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El relato de la noche en Malambo | Archivos Misteriosos</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Estilos específicos de esta página */
+        .detalle-contenedor {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 25px;
+        }
+
+        .detalle-contenedor h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .detalle-categoria {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #aaa;
+        }
+
+        .detalle-imagen {
+            width: 100%;
+            max-height: 450px;
+            object-fit: cover;
+            display: block;
+            margin: 25px auto;
+            border: 1px solid #555;
+        }
+
+        .detalle-seccion {
+            margin: 35px 0;
+            line-height: 1.7;
+        }
+
+        .detalle-seccion h2 {
+            border-bottom: 1px solid #555;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .detalle-seccion p {
+            margin-bottom: 15px;
+        }
+
+        .detalle-datos {
+            border: 1px solid #555;
+            padding: 18px;
+            margin: 25px 0;
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .detalle-datos p {
+            margin: 8px 0;
+        }
+
+        .detalle-advertencia {
+            border-left: 3px solid #999;
+            padding: 12px 18px;
+            margin: 25px 0;
+            background: rgba(255, 255, 255, 0.04);
+        }
+
+        .detalle-fuentes a {
+            color: #ccc;
+            display: block;
+            margin: 12px 0;
+            text-decoration: underline;
+        }
+
+        .detalle-volver {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .detalle-volver:hover,
+        .detalle-fuentes a:hover {
+            color: #aaa;
+        }
+
+        @media (max-width: 600px) {
+            .detalle-contenedor {
+                padding: 15px;
+                margin: 20px auto;
+            }
+
+            .detalle-imagen {
+                max-height: 280px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main class="detalle-contenedor">
+
+        <a href="mitos.html" class="detalle-volver" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <h1 data-i18n="titulo">El relato de la noche en Malambo</h1>
+
+        <p class="detalle-categoria" data-i18n="categoria">
+            FENÓMENOS PARANORMALES | MALAMBO, ATLÁNTICO
+        </p>
+
+        <!-- Imagen principal: reemplazar por la imagen definitiva -->
+        <img
+            src="img/Malambo.png"
+            alt="Representación nocturna de una vivienda en Malambo"
+            class="detalle-imagen"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <section class="detalle-seccion">
+            <h2 data-i18n="historiaTitulo">Una noche que llamó la atención de todo un municipio</h2>
+
+            <p data-i18n="historia1">
+                En julio de 2009, una historia poco común comenzó a circular en Malambo, Atlántico. Una mujer llamada Rocío Salazar aseguró haber vivido una experiencia extraña en su propia vivienda, un episodio que rápidamente despertó la curiosidad de sus vecinos y terminó llegando a los medios de comunicación nacionales.
+            </p>
+
+            <p data-i18n="historia2">
+                Según el relato publicado por la prensa, aquella noche Salazar se encontraba viendo videos musicales de Michael Jackson junto a sus hijos. Mientras compartían el momento y practicaban algunos pasos de baile del artista, la mujer afirmó que comenzó a percibir un intenso olor a formol.
+            </p>
+
+            <p data-i18n="historia3">
+                Poco después, sus hijos le dijeron que habían observado una sombra detrás de ella. Los menores utilizaron un teléfono celular para grabar lo que describieron como unas figuras extrañas. Salazar contó posteriormente que también llegó a observar la grabación y que la experiencia le produjo mucho temor.
+            </p>
+
+            <p data-i18n="historia4">
+                La noticia comenzó a despertar el interés de los habitantes de la zona. De acuerdo con las publicaciones de la época, varias personas se acercaron a la vivienda para conocer el supuesto registro que había sido captado con el celular.
+            </p>
+        </section>
+
+        <section class="detalle-seccion">
+            <h2 data-i18n="misterioTitulo">¿Una aparición en Malambo?</h2>
+
+            <p data-i18n="misterio1">
+                El episodio ocurrió pocos días después de la muerte de Michael Jackson, el 25 de junio de 2009. En aquellos días circulaban por internet rumores sobre supuestas apariciones del cantante, especialmente después de que se difundiera un video que algunas personas interpretaron como una figura fantasmal en su antigua residencia de Neverland.
+            </p>
+
+            <p data-i18n="misterio2">
+                La coincidencia entre esos rumores y el episodio narrado por la familia hizo que algunos vecinos relacionaran las sombras observadas en Malambo con el espíritu del artista estadounidense.
+            </p>
+
+            <p data-i18n="misterio3">
+                Sin embargo, no existe una comprobación independiente que permita establecer qué aparecía realmente en la grabación, ni que las figuras tuvieran relación con Michael Jackson. La historia permanece como un testimonio difundido por los medios de comunicación y convertido en una curiosa anécdota del misterio en el Caribe colombiano.
+            </p>
+        </section>
+
+        <section class="detalle-seccion">
+            <h2 data-i18n="contextoTitulo">Malambo: escenario de una historia singular</h2>
+
+            <p data-i18n="contexto1">
+                Malambo es un municipio del departamento del Atlántico, ubicado en el área metropolitana de Barranquilla y próximo al río Magdalena. Su historia, sus tradiciones y su relación con el territorio forman parte de la identidad cultural del Caribe colombiano.
+            </p>
+
+            <p data-i18n="contexto2">
+                En este escenario cotidiano ocurrió un relato que trascendió las fronteras del municipio y fue reproducido por diferentes medios. Más allá de las interpretaciones sobrenaturales, el caso muestra cómo una experiencia particular puede convertirse en una historia colectiva cuando despierta la curiosidad de toda una comunidad.
+            </p>
+        </section>
+
+        <section class="detalle-datos">
+            <h2 data-i18n="fichaTitulo">Ficha del caso</h2>
+
+            <p><strong data-i18n="datoLugar">Lugar:</strong> <span data-i18n="valorLugar">Malambo, Atlántico, Colombia.</span></p>
+
+            <p><strong data-i18n="datoFecha">Fecha:</strong> <span data-i18n="valorFecha">Julio de 2009.</span></p>
+
+            <p><strong data-i18n="datoCategoria">Categoría:</strong> <span data-i18n="valorCategoria">Relato paranormal / tradición mediática.</span></p>
+
+            <p><strong data-i18n="datoProtagonista">Protagonista del testimonio:</strong> <span data-i18n="valorProtagonista">Rocío Salazar.</span></p>
+
+            <p><strong data-i18n="datoEstado">Estado:</strong> <span data-i18n="valorEstado">Relato periodístico no verificado.</span></p>
+        </section>
+
+        <div class="detalle-advertencia">
+            <p data-i18n="advertencia">
+                Nota: esta página presenta un testimonio publicado por medios de comunicación en 2009. La supuesta aparición y la naturaleza de las sombras no han sido verificadas mediante evidencia independiente. El contenido se comparte con fines culturales, periodísticos y de exploración del misterio.
+            </p>
+        </div>
+
+        <section class="detalle-seccion detalle-fuentes">
+            <h2 data-i18n="fuentesTitulo">Fuentes y referencias</h2>
+
+            <a
+                href="https://www.eltiempo.com/archivo/documento/CMS-5603108"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="fuente1"
+            >
+                El Tiempo — Mujer asegura que 'fantasma' de Michael Jackson se apareció en Malambo (9 de julio de 2009).
+            </a>
+
+            <a
+                href="https://caracol.com.co/radio/2009/07/08/entretenimiento/1247078640_842057.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="fuente2"
+            >
+                Caracol Radio — En Malambo aseveran que se apareció el fantasma de Michael Jackson (9 de julio de 2009).
+            </a>
+
+            <a
+                href="https://www.elcolombiano.com/amp/historico/supuesto_fantasma_de_michael_jackson_se_aparecio_en_malambo-PIEC_50834"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-i18n="fuente3"
+            >
+                El Colombiano — Supuesto fantasma de Michael Jackson se apareció en Malambo (9 de julio de 2009).
+            </a>
+        </section>
+
+    </main>
+
+    <script>
+        const traducciones = {
+
+            es: {
+                titulo: "El relato de la noche en Malambo",
+                categoria: "FENÓMENOS PARANORMALES | MALAMBO, ATLÁNTICO",
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+                volver: "← Volver",
+
+                imagenAlt: "Representación nocturna de una vivienda en Malambo",
+
+                historiaTitulo: "Una noche que llamó la atención de todo un municipio",
+                historia1: "En julio de 2009, una historia poco común comenzó a circular en Malambo, Atlántico. Una mujer llamada Rocío Salazar aseguró haber vivido una experiencia extraña en su propia vivienda, un episodio que rápidamente despertó la curiosidad de sus vecinos y terminó llegando a los medios de comunicación nacionales.",
+                historia2: "Según el relato publicado por la prensa, aquella noche Salazar se encontraba viendo videos musicales de Michael Jackson junto a sus hijos. Mientras compartían el momento y practicaban algunos pasos de baile del artista, la mujer afirmó que comenzó a percibir un intenso olor a formol.",
+                historia3: "Poco después, sus hijos le dijeron que habían observado una sombra detrás de ella. Los menores utilizaron un teléfono celular para grabar lo que describieron como unas figuras extrañas. Salazar contó posteriormente que también llegó a observar la grabación y que la experiencia le produjo mucho temor.",
+                historia4: "La noticia comenzó a despertar el interés de los habitantes de la zona. De acuerdo con las publicaciones de la época, varias personas se acercaron a la vivienda para conocer el supuesto registro que había sido captado con el celular.",
+
+                misterioTitulo: "¿Una aparición en Malambo?",
+                misterio1: "El episodio ocurrió pocos días después de la muerte de Michael Jackson, el 25 de junio de 2009. En aquellos días circulaban por internet rumores sobre supuestas apariciones del cantante, especialmente después de que se difundiera un video que algunas personas interpretaron como una figura fantasmal en su antigua residencia de Neverland.",
+                misterio2: "La coincidencia entre esos rumores y el episodio narrado por la familia hizo que algunos vecinos relacionaran las sombras observadas en Malambo con el espíritu del artista estadounidense.",
+                misterio3: "Sin embargo, no existe una comprobación independiente que permita establecer qué aparecía realmente en la grabación, ni que las figuras tuvieran relación con Michael Jackson. La historia permanece como un testimonio difundido por los medios de comunicación y convertido en una curiosa anécdota del misterio en el Caribe colombiano.",
+
+                contextoTitulo: "Malambo: escenario de una historia singular",
+                contexto1: "Malambo es un municipio del departamento del Atlántico, ubicado en el área metropolitana de Barranquilla y próximo al río Magdalena. Su historia, sus tradiciones y su relación con el territorio forman parte de la identidad cultural del Caribe colombiano.",
+                contexto2: "En este escenario cotidiano ocurrió un relato que trascendió las fronteras del municipio y fue reproducido por diferentes medios. Más allá de las interpretaciones sobrenaturales, el caso muestra cómo una experiencia particular puede convertirse en una historia colectiva cuando despierta la curiosidad de toda una comunidad.",
+
+                fichaTitulo: "Ficha del caso",
+                datoLugar: "Lugar:",
+                valorLugar: "Malambo, Atlántico, Colombia.",
+                datoFecha: "Fecha:",
+                valorFecha: "Julio de 2009.",
+                datoCategoria: "Categoría:",
+                valorCategoria: "Relato paranormal / tradición mediática.",
+                datoProtagonista: "Protagonista del testimonio:",
+                valorProtagonista: "Rocío Salazar.",
+                datoEstado: "Estado:",
+                valorEstado: "Relato periodístico no verificado.",
+
+                advertencia: "Nota: esta página presenta un testimonio publicado por medios de comunicación en 2009. La supuesta aparición y la naturaleza de las sombras no han sido verificadas mediante evidencia independiente. El contenido se comparte con fines culturales, periodísticos y de exploración del misterio.",
+
+                fuentesTitulo: "Fuentes y referencias",
+                fuente1: "El Tiempo — Mujer asegura que 'fantasma' de Michael Jackson se apareció en Malambo (9 de julio de 2009).",
+                fuente2: "Caracol Radio — En Malambo aseveran que se apareció el fantasma de Michael Jackson (9 de julio de 2009).",
+                fuente3: "El Colombiano — Supuesto fantasma de Michael Jackson se apareció en Malambo (9 de julio de 2009)."
+            },
+
+            en: {
+                titulo: "The Night's Tale in Malambo",
+                categoria: "PARANORMAL PHENOMENA | MALAMBO, ATLÁNTICO",
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+                volver: "← Back",
+
+                imagenAlt: "Nighttime representation of a house in Malambo",
+
+                historiaTitulo: "A night that caught the attention of an entire town",
+                historia1: "In July 2009, an unusual story began circulating in Malambo, Atlántico. A woman named Rocío Salazar claimed to have experienced something strange inside her own home. The incident quickly attracted the curiosity of her neighbors and eventually reached national news outlets.",
+                historia2: "According to the account published by the press, Salazar was watching Michael Jackson music videos with her children that night. While they spent time together and practiced some of the artist's dance moves, she claimed to notice a strong smell of formaldehyde.",
+                historia3: "Shortly afterward, her children told her they had seen a shadow behind her. They used a mobile phone to record what they described as strange figures. Salazar later said that she also watched the recording and that the experience had frightened her.",
+                historia4: "The news began attracting the attention of local residents. According to reports from that time, several people went to the house to see the alleged footage recorded on the mobile phone.",
+
+                misterioTitulo: "An apparition in Malambo?",
+                misterio1: "The incident took place just days after Michael Jackson's death on June 25, 2009. At the time, rumors about alleged sightings of the singer were spreading online, especially after a video circulated that some people interpreted as a ghostly figure inside his former Neverland residence.",
+                misterio2: "The coincidence between those rumors and the family's account led some neighbors to associate the shadows seen in Malambo with the spirit of the American artist.",
+                misterio3: "However, there is no independent verification establishing what actually appeared in the recording or whether the figures had any connection to Michael Jackson. The story remains a testimony reported by the media and an unusual mystery anecdote from the Colombian Caribbean.",
+
+                contextoTitulo: "Malambo: the setting of an unusual story",
+                contexto1: "Malambo is a municipality in the department of Atlántico, located within the metropolitan area of Barranquilla and near the Magdalena River. Its history, traditions and relationship with the surrounding territory are part of the cultural identity of the Colombian Caribbean.",
+                contexto2: "It was in this everyday setting that a story emerged, eventually reaching beyond the municipality and being reported by different media outlets. Beyond supernatural interpretations, the case shows how an individual experience can become a collective story when it captures the curiosity of an entire community.",
+
+                fichaTitulo: "Case information",
+                datoLugar: "Location:",
+                valorLugar: "Malambo, Atlántico, Colombia.",
+                datoFecha: "Date:",
+                valorFecha: "July 2009.",
+                datoCategoria: "Category:",
+                valorCategoria: "Paranormal account / media folklore.",
+                datoProtagonista: "Person giving the account:",
+                valorProtagonista: "Rocío Salazar.",
+                datoEstado: "Status:",
+                valorEstado: "Unverified journalistic account.",
+
+                advertencia: "Note: this page presents a testimony published by news outlets in 2009. The alleged apparition and the nature of the shadows have not been verified through independent evidence. This content is shared for cultural, journalistic and mystery-exploration purposes.",
+
+                fuentesTitulo: "Sources and references",
+                fuente1: "El Tiempo — Woman claims Michael Jackson's 'ghost' appeared in Malambo (July 9, 2009).",
+                fuente2: "Caracol Radio — Residents in Malambo claim Michael Jackson's ghost appeared (July 9, 2009).",
+                fuente3: "El Colombiano — Alleged Michael Jackson ghost appeared in Malambo (July 9, 2009)."
+            }
+        };
+
+        function cambiarIdioma(idioma) {
+
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+            });
+
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.alt = traducciones[idioma][clave];
+                }
+            });
+
+            document.documentElement.lang = idioma;
+
+            document.title = idioma === "es"
+                ? "El relato de la noche en Malambo | Archivos Misteriosos"
+                : "The Night's Tale in Malambo | Mysterious Files";
+
+            document.getElementById("btn-es").classList.toggle("activo", idioma === "es");
+            document.getElementById("btn-en").classList.toggle("activo", idioma === "en");
+
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const idiomaGuardado = localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+            cambiarIdioma(idiomaGuardado);
+        });
+    </script>
+
+</body>
+</html>

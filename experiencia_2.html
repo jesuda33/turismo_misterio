@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>El Castillo de La Alboraya | Archivos Misteriosos</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="mitos.html" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            El Castillo de La Alboraya
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares misteriosos / Relatos y leyendas urbanas
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/castillo_1.webp"
+            alt="Castillo de La Alboraya en Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            En el suroriente de Barranquilla se encuentra una antigua
+            construcción conocida como el Castillo de La Alboraya.
+            Su arquitectura y su historia han despertado curiosidad
+            durante generaciones, convirtiendo el lugar en escenario
+            de relatos que mezclan memoria, misterio y tradición oral.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Según una crónica publicada por El Tiempo, la construcción
+            de la casona comenzó alrededor de 1900, vinculada a la
+            familia de Esteban Márquez y a Miguel Borrás. Con el paso
+            de los años, alrededor de la propiedad surgieron historias
+            sobre prácticas oscuras, ruidos nocturnos y presencias
+            inexplicables.
+        </p>
+
+        <p data-i18n="parrafo3">
+            Uno de los relatos más inquietantes habla de supuestos
+            túneles bajo la casona. La tradición popular los relaciona
+            con actividades clandestinas y con historias de sacrificios.
+            También se han difundido testimonios sobre el sonido de
+            caballos que parecen galopar durante la noche, aunque
+            no haya una explicación paranormal comprobada.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Las historias forman parte de la leyenda urbana que rodea
+            el edificio. Separar los datos históricos de los rumores
+            permite explorar el misterio sin confundir la tradición
+            oral con hechos demostrados.
+        </p>
+
+        <!-- Ubicación -->
+        <h2 data-i18n="tituloUbicacion">Ubicación</h2>
+
+        <p data-i18n="ubicacion">
+            Castillo de La Alboraya, Barranquilla, Atlántico, Colombia.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuente</h2>
+
+        <p data-i18n="referencia">
+            El Tiempo. Historia del tenebroso Castillo de La Alboraya
+            en Barranquilla (2022).
+        </p>
+
+        <a
+            href="https://www.eltiempo.com/colombia/barranquilla/historia-del-tenebroso-castillo-de-la-alboraya-en-barranquilla-695439"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente"
+        >
+            Consultar fuente
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "El Castillo de La Alboraya | Archivos Misteriosos",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver",
+
+                tituloPrincipal: "El Castillo de La Alboraya",
+
+                categoria: "Lugares misteriosos / Relatos y leyendas urbanas",
+
+                imagenAlt: "Castillo de La Alboraya en Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "En el suroriente de Barranquilla se encuentra una antigua construcción conocida como el Castillo de La Alboraya. Su arquitectura y su historia han despertado curiosidad durante generaciones, convirtiendo el lugar en escenario de relatos que mezclan memoria, misterio y tradición oral.",
+
+                parrafo2:
+                    "Según una crónica publicada por El Tiempo, la construcción de la casona comenzó alrededor de 1900, vinculada a la familia de Esteban Márquez y a Miguel Borrás. Con el paso de los años, alrededor de la propiedad surgieron historias sobre prácticas oscuras, ruidos nocturnos y presencias inexplicables.",
+
+                parrafo3:
+                    "Uno de los relatos más inquietantes habla de supuestos túneles bajo la casona. La tradición popular los relaciona con actividades clandestinas y con historias de sacrificios. También se han difundido testimonios sobre el sonido de caballos que parecen galopar durante la noche, aunque no haya una explicación paranormal comprobada.",
+
+                parrafo4:
+                    "Las historias forman parte de la leyenda urbana que rodea el edificio. Separar los datos históricos de los rumores permite explorar el misterio sin confundir la tradición oral con hechos demostrados.",
+
+                tituloUbicacion: "Ubicación",
+
+                ubicacion: "Castillo de La Alboraya, Barranquilla, Atlántico, Colombia.",
+
+                tituloFuente: "Fuente",
+
+                referencia:
+                    "El Tiempo. Historia del tenebroso Castillo de La Alboraya en Barranquilla (2022).",
+
+                consultarFuente: "Consultar fuente"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "The Castle of La Alboraya | Mysterious Files",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to",
+
+                tituloPrincipal: "The Castle of La Alboraya",
+
+                categoria: "Mysterious Places / Urban Stories and Legends",
+
+                imagenAlt: "La Alboraya Castle in Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "In southeastern Barranquilla stands an old building known as the Castle of La Alboraya. Its architecture and history have sparked curiosity for generations, turning the place into a setting for stories that combine memory, mystery, and oral tradition.",
+
+                parrafo2:
+                    "According to a chronicle published by El Tiempo, construction of the mansion began around 1900 and was associated with the family of Esteban Márquez and Miguel Borrás. Over the years, stories emerged surrounding the property, including accounts of dark practices, nighttime noises, and unexplained presences.",
+
+                parrafo3:
+                    "One of the most unsettling stories speaks of alleged tunnels beneath the mansion. Local tradition associates them with clandestine activities and stories of sacrifices. There have also been accounts of horses seemingly galloping at night, although no paranormal explanation has been proven.",
+
+                parrafo4:
+                    "These stories are part of the urban legend surrounding the building. Distinguishing historical information from rumors makes it possible to explore the mystery without confusing oral tradition with proven facts.",
+
+                tituloUbicacion: "Location",
+
+                ubicacion: "La Alboraya Castle, Barranquilla, Atlántico, Colombia.",
+
+                tituloFuente: "Source",
+
+                referencia:
+                    "El Tiempo. History of the terrifying Castle of La Alboraya in Barranquilla (2022).",
+
+                consultarFuente: "View source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Traducir los elementos de texto
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

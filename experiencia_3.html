@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Los Túneles de Barranquilla | Archivos Misteriosos</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="lugares.html" data-i18n="volver">
+            ← Volver a Lugares Misteriosos
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Los Túneles de Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares misteriosos / Memoria urbana
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/tunel.jpg"
+            alt="Edificaciones antiguas del centro histórico de Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            El centro histórico de Barranquilla conserva edificios,
+            calles y rincones que recuerdan diferentes etapas del
+            crecimiento de la ciudad. Detrás de algunas construcciones
+            antiguas también sobreviven preguntas sobre los espacios
+            que pudieron existir bajo sus cimientos.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Entre los relatos que despiertan curiosidad aparecen las
+            historias sobre posibles pasadizos subterráneos, recorridos
+            ocultos y conexiones entre edificaciones antiguas. Sin
+            embargo, no debe darse por comprobada la existencia de
+            una red de túneles secretos sin documentación histórica
+            o evidencia arqueológica que lo confirme.
+        </p>
+
+        <p data-i18n="parrafo3">
+            El misterio del centro no depende únicamente de lo que
+            podría esconderse bajo tierra. Sus edificios antiguos,
+            sus callejones y las memorias de quienes los han habitado
+            también han alimentado historias de presencias extrañas
+            y sucesos difíciles de explicar.
+        </p>
+
+        <p data-i18n="parrafo4">
+            En su libro Fantasmas del Centro, el periodista y gestor
+            cultural Johnny Insignares reúne relatos relacionados
+            con lugares históricos de Barranquilla. Estas narraciones
+            muestran cómo los recuerdos de la ciudad pueden convertirse
+            en historias de misterio que pasan de una generación a otra.
+        </p>
+
+        <p data-i18n="parrafo5">
+            ¿Qué secretos conserva el subsuelo de la ciudad? Por ahora,
+            la pregunta debe permanecer abierta: entre la historia
+            documentada y la imaginación existe un territorio que
+            merece investigarse con cuidado.
+        </p>
+
+        <!-- Ubicación -->
+        <h2 data-i18n="tituloUbicacion">Ubicación</h2>
+
+        <p data-i18n="ubicacion">
+            Centro histórico de Barranquilla, Atlántico, Colombia.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuente</h2>
+
+        <p data-i18n="referencia">
+            El Tiempo. Barranquilla: libro sobre fantasmas en el Centro
+            (2023).
+        </p>
+
+        <a
+            href="https://www.eltiempo.com/colombia/barranquilla/barranquilla-libro-sobre-fantasmas-en-el-centro-813415"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente"
+        >
+            Consultar fuente
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Los Túneles de Barranquilla | Archivos Misteriosos",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Lugares Misteriosos",
+
+                tituloPrincipal: "Los Túneles de Barranquilla",
+
+                categoria: "Lugares misteriosos / Memoria urbana",
+
+                imagenAlt: "Edificaciones antiguas del centro histórico de Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "El centro histórico de Barranquilla conserva edificios, calles y rincones que recuerdan diferentes etapas del crecimiento de la ciudad. Detrás de algunas construcciones antiguas también sobreviven preguntas sobre los espacios que pudieron existir bajo sus cimientos.",
+
+                parrafo2:
+                    "Entre los relatos que despiertan curiosidad aparecen las historias sobre posibles pasadizos subterráneos, recorridos ocultos y conexiones entre edificaciones antiguas. Sin embargo, no debe darse por comprobada la existencia de una red de túneles secretos sin documentación histórica o evidencia arqueológica que lo confirme.",
+
+                parrafo3:
+                    "El misterio del centro no depende únicamente de lo que podría esconderse bajo tierra. Sus edificios antiguos, sus callejones y las memorias de quienes los han habitado también han alimentado historias de presencias extrañas y sucesos difíciles de explicar.",
+
+                parrafo4:
+                    "En su libro Fantasmas del Centro, el periodista y gestor cultural Johnny Insignares reúne relatos relacionados con lugares históricos de Barranquilla. Estas narraciones muestran cómo los recuerdos de la ciudad pueden convertirse en historias de misterio que pasan de una generación a otra.",
+
+                parrafo5:
+                    "¿Qué secretos conserva el subsuelo de la ciudad? Por ahora, la pregunta debe permanecer abierta: entre la historia documentada y la imaginación existe un territorio que merece investigarse con cuidado.",
+
+                tituloUbicacion: "Ubicación",
+
+                ubicacion: "Centro histórico de Barranquilla, Atlántico, Colombia.",
+
+                tituloFuente: "Fuente",
+
+                referencia:
+                    "El Tiempo. Barranquilla: libro sobre fantasmas en el Centro (2023).",
+
+                consultarFuente: "Consultar fuente"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "The Tunnels of Barranquilla | Mysterious Files",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to Mysterious Places",
+
+                tituloPrincipal: "The Tunnels of Barranquilla",
+
+                categoria: "Mysterious Places / Urban History",
+
+                imagenAlt: "Old buildings in the historic center of Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "The historic center of Barranquilla preserves buildings, streets, and corners that recall different stages of the city's growth. Behind some of its old constructions, questions also remain about the spaces that may have existed beneath their foundations.",
+
+                parrafo2:
+                    "Among the stories that spark curiosity are accounts of possible underground passageways, hidden routes, and connections between old buildings. However, the existence of a network of secret tunnels should not be considered proven without historical documentation or archaeological evidence to confirm it.",
+
+                parrafo3:
+                    "The mystery of the historic center does not depend solely on what might be hidden underground. Its old buildings, narrow streets, and the memories of those who have lived there have also inspired stories of strange presences and unexplained events.",
+
+                parrafo4:
+                    "In his book Fantasmas del Centro (Ghosts of Downtown), journalist and cultural manager Johnny Insignares brings together stories related to historic places in Barranquilla. These accounts show how memories of the city can become mysterious stories passed down from one generation to another.",
+
+                parrafo5:
+                    "What secrets does the city's underground preserve? For now, the question must remain open: between documented history and imagination lies a territory that deserves careful investigation.",
+
+                tituloUbicacion: "Location",
+
+                ubicacion: "Historic center of Barranquilla, Atlántico, Colombia.",
+
+                tituloFuente: "Source",
+
+                referencia:
+                    "El Tiempo. Barranquilla: Book About Ghosts in the Historic Center (2023).",
+
+                consultarFuente: "View source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Traducir los elementos de texto
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

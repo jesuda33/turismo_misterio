@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fenómenos Paranormales</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" data-i18n="navInicio">Inicio</a>
+            <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+            <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+            <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+            <a href="paranormal.html" data-i18n="navParanormal">Fenómenos Paranormales</a>
+
+            <!-- Selector de idioma -->
+            <div class="selector-idioma">
+                <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+                <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 data-i18n="tituloPrincipal">Fenómenos Paranormales</h1>
+
+
+        <!-- Primera subsección: Casos documentados -->
+
+        <section>
+
+            <h2 data-i18n="casosDocumentados">Casos documentados</h2>
+
+            <article>
+
+                <h3 data-i18n="nazisBarranquilla">Nazis en Barranquilla</h3>
+
+                <p data-i18n="ubicacionBarranquilla">
+                    Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_19.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3 data-i18n="masacreBananeras">La Masacre de las Bananeras</h3>
+
+                <p data-i18n="ubicacionCienaga">
+                    Zona bananera, Ciénaga, Magdalena.
+                </p>
+
+                <a href="experiencia_20.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3 data-i18n="rioMagdalena">Los misterios del río Magdalena</h3>
+
+                <p data-i18n="ubicacionBocasCeniza">
+                    Bocas de Ceniza, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_21.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- Segunda subsección: Historias de personas -->
+
+        <section>
+
+            <h2 data-i18n="historiasPersonas">Historias de personas</h2>
+
+            <article>
+
+                <h3 data-i18n="cuevaGarciaMarquez">La Cueva y Gabriel García Márquez</h3>
+
+                <p data-i18n="ubicacionCueva">
+                    La Cueva, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_22.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3 data-i18n="embalseGuajaro">Relatos del Embalse del Guájaro</h3>
+
+                <p data-i18n="ubicacionGuajaro">
+                    Embalse del Guájaro, Repelón, Atlántico.
+                </p>
+
+                <a href="experiencia_23.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3 data-i18n="relatosUsiacuri">Voces y relatos de Usiacurí</h3>
+
+                <p data-i18n="ubicacionUsiacuri">
+                    Centro histórico de Usiacurí, Atlántico.
+                </p>
+
+                <a href="experiencia_24.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Fenómenos Paranormales",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Fenómenos Paranormales",
+
+                tituloPrincipal: "Fenómenos Paranormales",
+
+                casosDocumentados: "Casos documentados",
+
+                nazisBarranquilla: "Nazis en Barranquilla",
+
+                ubicacionBarranquilla:
+                    "Barranquilla, Atlántico.",
+
+                masacreBananeras:
+                    "La Masacre de las Bananeras",
+
+                ubicacionCienaga:
+                    "Zona bananera, Ciénaga, Magdalena.",
+
+                rioMagdalena:
+                    "Los misterios del río Magdalena",
+
+                ubicacionBocasCeniza:
+                    "Bocas de Ceniza, Barranquilla, Atlántico.",
+
+                historiasPersonas:
+                    "Historias de personas",
+
+                cuevaGarciaMarquez:
+                    "La Cueva y Gabriel García Márquez",
+
+                ubicacionCueva:
+                    "La Cueva, Barranquilla, Atlántico.",
+
+                embalseGuajaro:
+                    "Relatos del Embalse del Guájaro",
+
+                ubicacionGuajaro:
+                    "Embalse del Guájaro, Repelón, Atlántico.",
+
+                relatosUsiacuri:
+                    "Voces y relatos de Usiacurí",
+
+                ubicacionUsiacuri:
+                    "Centro histórico de Usiacurí, Atlántico.",
+
+                verExperiencia:
+                    "Ver experiencia"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "Paranormal Phenomena",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal Phenomena",
+
+                tituloPrincipal: "Paranormal Phenomena",
+
+                casosDocumentados: "Documented Cases",
+
+                nazisBarranquilla:
+                    "Nazis in Barranquilla",
+
+                ubicacionBarranquilla:
+                    "Barranquilla, Atlántico.",
+
+                masacreBananeras:
+                    "The Banana Massacre",
+
+                ubicacionCienaga:
+                    "Banana-growing region, Ciénaga, Magdalena.",
+
+                rioMagdalena:
+                    "The Mysteries of the Magdalena River",
+
+                ubicacionBocasCeniza:
+                    "Bocas de Ceniza, Barranquilla, Atlántico.",
+
+                historiasPersonas:
+                    "Personal Stories",
+
+                cuevaGarciaMarquez:
+                    "La Cueva and Gabriel García Márquez",
+
+                ubicacionCueva:
+                    "La Cueva, Barranquilla, Atlántico.",
+
+                embalseGuajaro:
+                    "Stories of the Guájaro Reservoir",
+
+                ubicacionGuajaro:
+                    "Guájaro Reservoir, Repelón, Atlántico.",
+
+                relatosUsiacuri:
+                    "Voices and Stories of Usiacurí",
+
+                ubicacionUsiacuri:
+                    "Historic Center of Usiacurí, Atlántico.",
+
+                verExperiencia:
+                    "View Experience"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

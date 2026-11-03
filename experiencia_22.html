@@ -1,0 +1,479 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>La Cueva y Gabriel García Márquez</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="paranormal.html" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            La Cueva y Gabriel García Márquez
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Historia y memoria cultural
+        </p>
+
+        <!-- Imagen principal -->
+        <img
+            src="img/lacueva.jpg"
+            alt="Establecimiento histórico La Cueva en Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">Un refugio para la imaginación</h2>
+
+        <p data-i18n="parrafo1">
+            En el barrio Boston de Barranquilla existe un lugar que
+            guarda una de las historias culturales más fascinantes
+            del Caribe colombiano: La Cueva. Este emblemático
+            establecimiento fue mucho más que un bar o restaurante.
+            Durante las décadas de 1950 y 1960 se convirtió en un
+            punto de encuentro para escritores, periodistas,
+            pintores e intelectuales que compartían conversaciones
+            sobre literatura, arte, cine y política.
+        </p>
+
+        <p data-i18n="parrafo2">
+            La historia comenzó en 1954, cuando una antigua tienda
+            de barrio conocida como El Vaivén fue transformada
+            en un espacio de encuentro por Alfonso Fuenmayor y
+            Álvaro Cepeda Samudio. El establecimiento, relacionado
+            con Eduardo Vilá, empezó a recibir a un grupo de
+            intelectuales que posteriormente sería conocido como
+            el Grupo de Barranquilla. Entre sus visitantes más
+            destacados se encontraba Gabriel García Márquez.
+        </p>
+
+        <p data-i18n="parrafo3">
+            En aquellas reuniones, García Márquez compartió
+            conversaciones y experiencias con figuras como
+            Álvaro Cepeda Samudio, Alfonso Fuenmayor, Germán Vargas
+            y el pintor Alejandro Obregón. Las tertulias se
+            caracterizaban por largas discusiones, bromas,
+            conversaciones literarias y una particular libertad
+            creativa. Aquel ambiente contribuyó a fortalecer
+            las relaciones intelectuales y artísticas del grupo.
+        </p>
+
+        <p data-i18n="parrafo4">
+            La relación entre La Cueva y la literatura de García
+            Márquez también quedó reflejada en Cien años de soledad.
+            En esta novela, el escritor evocó a varios de sus
+            compañeros del Grupo de Barranquilla mediante
+            personajes y referencias literarias. La experiencia
+            compartida con estos intelectuales formó parte del
+            entorno cultural que acompañó sus primeros años
+            como escritor y periodista.
+        </p>
+
+        <p data-i18n="parrafo5">
+            El establecimiento también fue escenario de encuentros
+            entre importantes artistas colombianos. Alejandro
+            Obregón, Enrique Grau, Cecilia Porras y otros creadores
+            hicieron parte de ese universo cultural. Fotografías,
+            pinturas y recuerdos de aquellas reuniones permiten
+            reconstruir la atmósfera de una época en la que
+            Barranquilla se convirtió en un importante centro
+            de intercambio artístico e intelectual.
+        </p>
+
+        <p data-i18n="parrafo6">
+            Con el paso de los años, La Cueva adquirió un enorme
+            valor histórico y cultural. El Ministerio de Cultura
+            la reconoció como Bien de Interés Cultural de carácter
+            nacional mediante la Resolución 1583 de 2002.
+            Actualmente, el lugar continúa relacionado con la
+            promoción de las artes, la literatura y la memoria
+            del Grupo de Barranquilla.
+        </p>
+
+        <p data-i18n="parrafo7">
+            Hoy, visitar La Cueva es acercarse a un capítulo
+            fundamental de la historia cultural colombiana.
+            Sus paredes, fotografías y recuerdos evocan las
+            conversaciones de quienes transformaron la literatura
+            y el arte nacional. Su misterio no está relacionado
+            con apariciones sobrenaturales, sino con la fascinante
+            historia de un lugar donde las ideas, la imaginación
+            y la amistad dejaron una huella imborrable.
+        </p>
+
+        <!-- Personajes -->
+        <h2 data-i18n="tituloPersonajes">
+            Personajes del Grupo de Barranquilla
+        </h2>
+
+        <p data-i18n="personaje1">
+            Gabriel García Márquez: escritor y periodista colombiano,
+            reconocido internacionalmente por su obra literaria
+            y ganador del Premio Nobel de Literatura en 1982.
+        </p>
+
+        <p data-i18n="personaje2">
+            Álvaro Cepeda Samudio: escritor, periodista y cineasta,
+            una de las figuras fundamentales de la literatura
+            moderna colombiana.
+        </p>
+
+        <p data-i18n="personaje3">
+            Alfonso Fuenmayor: periodista, escritor y uno de los
+            principales impulsores de las reuniones culturales
+            del Grupo de Barranquilla.
+        </p>
+
+        <p data-i18n="personaje4">
+            Alejandro Obregón: pintor colombiano, reconocido por
+            su aporte al arte moderno y por su relación con
+            los intelectuales de La Cueva.
+        </p>
+
+        <p data-i18n="personaje5">
+            Germán Vargas Cantillo: periodista y crítico literario,
+            integrante destacado del Grupo de Barranquilla.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes y referencias</h2>
+
+        <p data-i18n="referencia1">
+            Ministerio de Cultura de Colombia. (2002).
+            Resolución 1583 de 2002. Declaratoria de La Cueva
+            como Bien de Interés Cultural de carácter nacional.
+        </p>
+
+        <a
+            href="https://normograma.mincultura.gov.co/compilacion/docs/resolucion_mincultura_1583_2002.htm"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar resolución
+        </a>
+
+        <p data-i18n="referencia2">
+            Señal Colombia. (2023). Así fue La Cueva del
+            Grupo de Barranquilla.
+        </p>
+
+        <a
+            href="https://www.senalcolombia.tv/cultura/grupo-barranquilla-la-cueva"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar artículo
+        </a>
+
+        <p data-i18n="referencia3">
+            Visit Barranquilla. Ruta Gabo. Recorrido por los
+            lugares relacionados con Gabriel García Márquez
+            en Barranquilla.
+        </p>
+
+        <a
+            href="https://visit.barranquilla.gov.co/lugares/rutas-patrimoniales/ruta-gabo"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar ruta cultural
+        </a>
+
+        <p data-i18n="referencia4">
+            Fundación La Cueva. Historia y legado cultural
+            del Grupo de Barranquilla.
+        </p>
+
+        <a
+            href="https://fundacionlacueva.org/inicio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Consultar Fundación La Cueva
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "La Cueva y Gabriel García Márquez",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver",
+
+                tituloPrincipal: "La Cueva y Gabriel García Márquez",
+
+                categoria: "Lugares Misteriosos / Historia y memoria cultural",
+
+                imagenAlt: "Establecimiento histórico La Cueva en Barranquilla",
+
+                tituloHistoria: "Un refugio para la imaginación",
+
+                parrafo1:
+                    "En el barrio Boston de Barranquilla existe un lugar que guarda una de las historias culturales más fascinantes del Caribe colombiano: La Cueva. Este emblemático establecimiento fue mucho más que un bar o restaurante. Durante las décadas de 1950 y 1960 se convirtió en un punto de encuentro para escritores, periodistas, pintores e intelectuales que compartían conversaciones sobre literatura, arte, cine y política.",
+
+                parrafo2:
+                    "La historia comenzó en 1954, cuando una antigua tienda de barrio conocida como El Vaivén fue transformada en un espacio de encuentro por Alfonso Fuenmayor y Álvaro Cepeda Samudio. El establecimiento, relacionado con Eduardo Vilá, empezó a recibir a un grupo de intelectuales que posteriormente sería conocido como el Grupo de Barranquilla. Entre sus visitantes más destacados se encontraba Gabriel García Márquez.",
+
+                parrafo3:
+                    "En aquellas reuniones, García Márquez compartió conversaciones y experiencias con figuras como Álvaro Cepeda Samudio, Alfonso Fuenmayor, Germán Vargas y el pintor Alejandro Obregón. Las tertulias se caracterizaban por largas discusiones, bromas, conversaciones literarias y una particular libertad creativa. Aquel ambiente contribuyó a fortalecer las relaciones intelectuales y artísticas del grupo.",
+
+                parrafo4:
+                    "La relación entre La Cueva y la literatura de García Márquez también quedó reflejada en Cien años de soledad. En esta novela, el escritor evocó a varios de sus compañeros del Grupo de Barranquilla mediante personajes y referencias literarias. La experiencia compartida con estos intelectuales formó parte del entorno cultural que acompañó sus primeros años como escritor y periodista.",
+
+                parrafo5:
+                    "El establecimiento también fue escenario de encuentros entre importantes artistas colombianos. Alejandro Obregón, Enrique Grau, Cecilia Porras y otros creadores hicieron parte de ese universo cultural. Fotografías, pinturas y recuerdos de aquellas reuniones permiten reconstruir la atmósfera de una época en la que Barranquilla se convirtió en un importante centro de intercambio artístico e intelectual.",
+
+                parrafo6:
+                    "Con el paso de los años, La Cueva adquirió un enorme valor histórico y cultural. El Ministerio de Cultura la reconoció como Bien de Interés Cultural de carácter nacional mediante la Resolución 1583 de 2002. Actualmente, el lugar continúa relacionado con la promoción de las artes, la literatura y la memoria del Grupo de Barranquilla.",
+
+                parrafo7:
+                    "Hoy, visitar La Cueva es acercarse a un capítulo fundamental de la historia cultural colombiana. Sus paredes, fotografías y recuerdos evocan las conversaciones de quienes transformaron la literatura y el arte nacional. Su misterio no está relacionado con apariciones sobrenaturales, sino con la fascinante historia de un lugar donde las ideas, la imaginación y la amistad dejaron una huella imborrable.",
+
+                tituloPersonajes: "Personajes del Grupo de Barranquilla",
+
+                personaje1:
+                    "Gabriel García Márquez: escritor y periodista colombiano, reconocido internacionalmente por su obra literaria y ganador del Premio Nobel de Literatura en 1982.",
+
+                personaje2:
+                    "Álvaro Cepeda Samudio: escritor, periodista y cineasta, una de las figuras fundamentales de la literatura moderna colombiana.",
+
+                personaje3:
+                    "Alfonso Fuenmayor: periodista, escritor y uno de los principales impulsores de las reuniones culturales del Grupo de Barranquilla.",
+
+                personaje4:
+                    "Alejandro Obregón: pintor colombiano, reconocido por su aporte al arte moderno y por su relación con los intelectuales de La Cueva.",
+
+                personaje5:
+                    "Germán Vargas Cantillo: periodista y crítico literario, integrante destacado del Grupo de Barranquilla.",
+
+                tituloFuente: "Fuentes y referencias",
+
+                referencia1:
+                    "Ministerio de Cultura de Colombia. (2002). Resolución 1583 de 2002. Declaratoria de La Cueva como Bien de Interés Cultural de carácter nacional.",
+
+                consultarFuente1: "Consultar resolución",
+
+                referencia2:
+                    "Señal Colombia. (2023). Así fue La Cueva del Grupo de Barranquilla.",
+
+                consultarFuente2: "Consultar artículo",
+
+                referencia3:
+                    "Visit Barranquilla. Ruta Gabo. Recorrido por los lugares relacionados con Gabriel García Márquez en Barranquilla.",
+
+                consultarFuente3: "Consultar ruta cultural",
+
+                referencia4:
+                    "Fundación La Cueva. Historia y legado cultural del Grupo de Barranquilla.",
+
+                consultarFuente4: "Consultar Fundación La Cueva"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "La Cueva and Gabriel García Márquez",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to",
+
+                tituloPrincipal: "La Cueva and Gabriel García Márquez",
+
+                categoria: "Mysterious Places / History and Cultural Memory",
+
+                imagenAlt: "Historic La Cueva establishment in Barranquilla",
+
+                tituloHistoria: "A Refuge for the Imagination",
+
+                parrafo1:
+                    "In the Boston neighborhood of Barranquilla, there is a place that preserves one of the most fascinating cultural stories of the Colombian Caribbean: La Cueva. This emblematic establishment was much more than a bar or restaurant. During the 1950s and 1960s, it became a meeting place for writers, journalists, painters, and intellectuals who shared conversations about literature, art, cinema, and politics.",
+
+                parrafo2:
+                    "The story began in 1954, when an old neighborhood shop known as El Vaivén was transformed into a gathering place by Alfonso Fuenmayor and Álvaro Cepeda Samudio. The establishment, associated with Eduardo Vilá, began welcoming a group of intellectuals who would later become known as the Barranquilla Group. Among its most notable visitors was Gabriel García Márquez.",
+
+                parrafo3:
+                    "During those gatherings, García Márquez shared conversations and experiences with figures such as Álvaro Cepeda Samudio, Alfonso Fuenmayor, Germán Vargas, and painter Alejandro Obregón. The gatherings were characterized by long discussions, jokes, literary conversations, and a particular sense of creative freedom. This atmosphere helped strengthen the group's intellectual and artistic relationships.",
+
+                parrafo4:
+                    "The relationship between La Cueva and García Márquez's literature was also reflected in One Hundred Years of Solitude. In this novel, the writer evoked several of his friends from the Barranquilla Group through characters and literary references. His experiences with these intellectuals were part of the cultural environment that accompanied his early years as a writer and journalist.",
+
+                parrafo5:
+                    "The establishment also hosted meetings between important Colombian artists. Alejandro Obregón, Enrique Grau, Cecilia Porras, and other creators were part of this cultural universe. Photographs, paintings, and memories of those gatherings help reconstruct the atmosphere of an era when Barranquilla became an important center of artistic and intellectual exchange.",
+
+                parrafo6:
+                    "Over the years, La Cueva acquired enormous historical and cultural value. The Colombian Ministry of Culture recognized it as a National Cultural Heritage Site through Resolution 1583 of 2002. Today, the place continues to be associated with the promotion of the arts, literature, and the legacy of the Barranquilla Group.",
+
+                parrafo7:
+                    "Today, visiting La Cueva means discovering a fundamental chapter in Colombian cultural history. Its walls, photographs, and memories evoke the conversations of those who transformed national literature and art. Its mystery is not related to supernatural appearances, but to the fascinating history of a place where ideas, imagination, and friendship left an unforgettable mark.",
+
+                tituloPersonajes: "Members of the Barranquilla Group",
+
+                personaje1:
+                    "Gabriel García Márquez: Colombian writer and journalist, internationally recognized for his literary work and winner of the 1982 Nobel Prize in Literature.",
+
+                personaje2:
+                    "Álvaro Cepeda Samudio: writer, journalist, and filmmaker, one of the leading figures in modern Colombian literature.",
+
+                personaje3:
+                    "Alfonso Fuenmayor: journalist, writer, and one of the main promoters of the cultural gatherings of the Barranquilla Group.",
+
+                personaje4:
+                    "Alejandro Obregón: Colombian painter, recognized for his contribution to modern art and his relationship with the intellectuals of La Cueva.",
+
+                personaje5:
+                    "Germán Vargas Cantillo: journalist and literary critic, a prominent member of the Barranquilla Group.",
+
+                tituloFuente: "Sources and References",
+
+                referencia1:
+                    "Colombian Ministry of Culture. (2002). Resolution 1583 of 2002. Declaration of La Cueva as a National Cultural Heritage Site.",
+
+                consultarFuente1: "View resolution",
+
+                referencia2:
+                    "Señal Colombia. (2023). This Is How La Cueva of the Barranquilla Group Was.",
+
+                consultarFuente2: "View article",
+
+                referencia3:
+                    "Visit Barranquilla. Gabo Route. A tour of places associated with Gabriel García Márquez in Barranquilla.",
+
+                consultarFuente3: "View cultural route",
+
+                referencia4:
+                    "Fundación La Cueva. History and cultural legacy of the Barranquilla Group.",
+
+                consultarFuente4: "View Fundación La Cueva"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

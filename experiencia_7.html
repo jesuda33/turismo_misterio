@@ -1,0 +1,444 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OVNIS sobre Barranquilla</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="ovnis.html" data-i18n="volver">
+            ← Volver a Ovnis
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            OVNIS sobre Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Ovnis / Fenómenos aéreos no identificados
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/barranquilla_noche.jpg"
+            alt="Representación de un objeto volador no identificado sobre Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">El misterio en el cielo</h2>
+
+        <p data-i18n="parrafo1">
+            Barranquilla, conocida como la Puerta de Oro de Colombia,
+            también ha sido escenario de acontecimientos que despiertan
+            la curiosidad de sus habitantes. A lo largo de los años,
+            diferentes personas han reportado luces extrañas, destellos
+            y objetos aparentemente desconocidos que llaman la atención
+            al observar el cielo de la ciudad.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Uno de los episodios más comentados ocurrió en febrero de
+            2018, cuando una extraña luz fue observada sobre el centro
+            de Barranquilla, cerca de la Catedral María Reina y el
+            edificio Nelmar. Varias personas se reunieron para observar
+            un punto luminoso que parecía cambiar de colores y
+            permanecer suspendido en el cielo.
+        </p>
+
+        <p data-i18n="parrafo3">
+            El fenómeno generó diferentes interpretaciones. Algunos
+            ciudadanos hablaron de un dron, un helicóptero o incluso
+            una posible nave extraterrestre. Sin embargo, especialistas
+            consultados por medios de comunicación plantearon que
+            podría tratarse de un efecto óptico conocido como destello
+            del lente, producido por la luz al atravesar una cámara.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Otro episodio ocurrió en mayo de 2023, cuando una intensa
+            luz atravesó el cielo de Barranquilla y fue registrada
+            mediante teléfonos celulares. Las imágenes circularon
+            rápidamente por las redes sociales y despertaron
+            especulaciones sobre una posible nave, un meteorito o
+            algún otro fenómeno espacial.
+        </p>
+
+        <p data-i18n="parrafo5">
+            En febrero de 2024, nuevamente aparecieron luces
+            misteriosas sobre Barranquilla y otros municipios del
+            Atlántico. Numerosos ciudadanos compartieron videos de
+            varios puntos luminosos que avanzaban por el cielo en
+            formación, generando preguntas sobre su procedencia.
+        </p>
+
+        <p data-i18n="parrafo6">
+            La explicación llegó posteriormente: se trataba de un
+            conjunto de satélites Starlink y elementos relacionados
+            con el lanzamiento de un cohete Falcon 9 desde Florida,
+            Estados Unidos. El fenómeno permitió comprobar cómo
+            algunos acontecimientos tecnológicos y astronómicos
+            pueden confundirse inicialmente con avistamientos OVNI.
+        </p>
+
+        <p data-i18n="parrafo7">
+            Aunque estos episodios cuentan con explicaciones diferentes,
+            mantienen vivo el interés por los fenómenos aéreos no
+            identificados. La inmensidad del cielo, los testimonios
+            ciudadanos y las imágenes compartidas siguen alimentando
+            preguntas sobre aquello que todavía no comprendemos
+            completamente del universo.
+        </p>
+
+        <!-- Casos documentados -->
+        <h2 data-i18n="tituloCasos">
+            Avistamientos documentados
+        </h2>
+
+        <p data-i18n="caso1">
+            2018 – Una luz misteriosa sobre el centro de Barranquilla.
+            Ciudadanos observaron un punto luminoso que parecía cambiar
+            de colores cerca de la Catedral María Reina.
+        </p>
+
+        <p data-i18n="caso2">
+            2023 – Un destello atravesó el cielo de la ciudad y fue
+            registrado en video por varios ciudadanos.
+        </p>
+
+        <p data-i18n="caso3">
+            2024 – Un tren de luces sorprendió a habitantes de
+            Barranquilla y municipios del Atlántico. Posteriormente,
+            el fenómeno fue relacionado con satélites Starlink.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes de consulta</h2>
+
+        <p data-i18n="referencia1">
+            El Heraldo. (2018). Las posibles explicaciones a la
+            inquietante luz en el cielo que sorprendió a varios
+            barranquilleros.
+        </p>
+
+        <a
+            href="https://www.elheraldo.co/barranquilla/2018/02/23/las-posibles-explicaciones-a-la-inquietante-luz-en-el-cielo-que-sorprendio-a-varios-barranquilleros-462640/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            El Universal. (2023). Rara luz brillante en el cielo de
+            Barranquilla, ¿ovni o meteorito?
+        </p>
+
+        <a
+            href="https://www.eluniversal.com.co/ciencia/2023/05/11/video-rara-luz-brillante-en-el-cielo-de-barranquilla-que-era-un-ovni-o-meteorito/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia3">
+            Noticias Caracol. (2024). ¿Eran ovnis? Extrañas luces se
+            vieron en Antioquia, Atlántico y otros departamentos.
+        </p>
+
+        <a
+            href="https://www.noticiascaracol.com/lomastrinado/eran-ovnis-extranas-luces-se-vieron-en-antioquia-atlantico-y-otros-departamentos-rs15"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia4">
+            El Heraldo. (2024). EH verifica: ¿se vieron ovnis en el
+            Atlántico y otros departamentos?
+        </p>
+
+        <a
+            href="https://www.elheraldo.co/atlantico/2024/02/26/eh-verifica-se-vieron-ovnis-en-el-atlantico-y-otros-departamentos-1073597/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Consultar fuente
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "OVNIS sobre Barranquilla",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Ovnis",
+
+                tituloPrincipal: "OVNIS sobre Barranquilla",
+
+                categoria: "Ovnis / Fenómenos aéreos no identificados",
+
+                imagenAlt: "Representación de un objeto volador no identificado sobre Barranquilla",
+
+                tituloHistoria: "El misterio en el cielo",
+
+                parrafo1:
+                    "Barranquilla, conocida como la Puerta de Oro de Colombia, también ha sido escenario de acontecimientos que despiertan la curiosidad de sus habitantes. A lo largo de los años, diferentes personas han reportado luces extrañas, destellos y objetos aparentemente desconocidos que llaman la atención al observar el cielo de la ciudad.",
+
+                parrafo2:
+                    "Uno de los episodios más comentados ocurrió en febrero de 2018, cuando una extraña luz fue observada sobre el centro de Barranquilla, cerca de la Catedral María Reina y el edificio Nelmar. Varias personas se reunieron para observar un punto luminoso que parecía cambiar de colores y permanecer suspendido en el cielo.",
+
+                parrafo3:
+                    "El fenómeno generó diferentes interpretaciones. Algunos ciudadanos hablaron de un dron, un helicóptero o incluso una posible nave extraterrestre. Sin embargo, especialistas consultados por medios de comunicación plantearon que podría tratarse de un efecto óptico conocido como destello del lente, producido por la luz al atravesar una cámara.",
+
+                parrafo4:
+                    "Otro episodio ocurrió en mayo de 2023, cuando una intensa luz atravesó el cielo de Barranquilla y fue registrada mediante teléfonos celulares. Las imágenes circularon rápidamente por las redes sociales y despertaron especulaciones sobre una posible nave, un meteorito o algún otro fenómeno espacial.",
+
+                parrafo5:
+                    "En febrero de 2024, nuevamente aparecieron luces misteriosas sobre Barranquilla y otros municipios del Atlántico. Numerosos ciudadanos compartieron videos de varios puntos luminosos que avanzaban por el cielo en formación, generando preguntas sobre su procedencia.",
+
+                parrafo6:
+                    "La explicación llegó posteriormente: se trataba de un conjunto de satélites Starlink y elementos relacionados con el lanzamiento de un cohete Falcon 9 desde Florida, Estados Unidos. El fenómeno permitió comprobar cómo algunos acontecimientos tecnológicos y astronómicos pueden confundirse inicialmente con avistamientos OVNI.",
+
+                parrafo7:
+                    "Aunque estos episodios cuentan con explicaciones diferentes, mantienen vivo el interés por los fenómenos aéreos no identificados. La inmensidad del cielo, los testimonios ciudadanos y las imágenes compartidas siguen alimentando preguntas sobre aquello que todavía no comprendemos completamente del universo.",
+
+                tituloCasos: "Avistamientos documentados",
+
+                caso1:
+                    "2018 – Una luz misteriosa sobre el centro de Barranquilla. Ciudadanos observaron un punto luminoso que parecía cambiar de colores cerca de la Catedral María Reina.",
+
+                caso2:
+                    "2023 – Un destello atravesó el cielo de la ciudad y fue registrado en video por varios ciudadanos.",
+
+                caso3:
+                    "2024 – Un tren de luces sorprendió a habitantes de Barranquilla y municipios del Atlántico. Posteriormente, el fenómeno fue relacionado con satélites Starlink.",
+
+                tituloFuente: "Fuentes de consulta",
+
+                referencia1:
+                    "El Heraldo. (2018). Las posibles explicaciones a la inquietante luz en el cielo que sorprendió a varios barranquilleros.",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "El Universal. (2023). Rara luz brillante en el cielo de Barranquilla, ¿ovni o meteorito?",
+
+                consultarFuente2: "Consultar fuente",
+
+                referencia3:
+                    "Noticias Caracol. (2024). ¿Eran ovnis? Extrañas luces se vieron en Antioquia, Atlántico y otros departamentos.",
+
+                consultarFuente3: "Consultar fuente",
+
+                referencia4:
+                    "El Heraldo. (2024). EH verifica: ¿se vieron ovnis en el Atlántico y otros departamentos?",
+
+                consultarFuente4: "Consultar fuente"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "UFOs Over Barranquilla",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to UFOs",
+
+                tituloPrincipal: "UFOs Over Barranquilla",
+
+                categoria: "UFOs / Unidentified Aerial Phenomena",
+
+                imagenAlt: "Representation of an unidentified flying object over Barranquilla",
+
+                tituloHistoria: "The Mystery in the Sky",
+
+                parrafo1:
+                    "Barranquilla, known as Colombia's Golden Gate, has also been the setting for events that spark the curiosity of its inhabitants. Over the years, different people have reported strange lights, flashes, and apparently unknown objects that attract attention when observing the city's sky.",
+
+                parrafo2:
+                    "One of the most talked-about episodes occurred in February 2018, when a strange light was observed over downtown Barranquilla, near the María Reina Cathedral and the Nelmar building. Several people gathered to watch a luminous point that appeared to change colors and remain suspended in the sky.",
+
+                parrafo3:
+                    "The phenomenon generated different interpretations. Some citizens suggested a drone, a helicopter, or even a possible extraterrestrial spacecraft. However, specialists consulted by the media suggested that it could be an optical effect known as lens flare, produced when light passes through a camera lens.",
+
+                parrafo4:
+                    "Another episode occurred in May 2023, when an intense light crossed the sky over Barranquilla and was recorded on mobile phones. The images quickly circulated on social media, sparking speculation about a possible spacecraft, a meteor, or another space phenomenon.",
+
+                parrafo5:
+                    "In February 2024, mysterious lights appeared once again over Barranquilla and other municipalities in Atlántico. Many citizens shared videos of several luminous points moving across the sky in formation, raising questions about their origin.",
+
+                parrafo6:
+                    "The explanation came later: they were a group of Starlink satellites and elements associated with the launch of a Falcon 9 rocket from Florida, United States. The event demonstrated how some technological and astronomical phenomena can initially be mistaken for UFO sightings.",
+
+                parrafo7:
+                    "Although these episodes have different explanations, they continue to fuel interest in unidentified aerial phenomena. The vastness of the sky, eyewitness accounts, and shared images continue to raise questions about what we still do not fully understand about the universe.",
+
+                tituloCasos: "Documented Sightings",
+
+                caso1:
+                    "2018 – A mysterious light over downtown Barranquilla. Citizens observed a luminous point that appeared to change colors near María Reina Cathedral.",
+
+                caso2:
+                    "2023 – A bright flash crossed the city's sky and was recorded on video by several citizens.",
+
+                caso3:
+                    "2024 – A train of lights surprised residents of Barranquilla and other municipalities in Atlántico. The phenomenon was later linked to Starlink satellites.",
+
+                tituloFuente: "References",
+
+                referencia1:
+                    "El Heraldo. (2018). Possible explanations for the disturbing light in the sky that surprised several residents of Barranquilla.",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "El Universal. (2023). Strange bright light in the sky over Barranquilla: UFO or meteor?",
+
+                consultarFuente2: "View source",
+
+                referencia3:
+                    "Noticias Caracol. (2024). Were they UFOs? Strange lights were seen in Antioquia, Atlántico, and other departments.",
+
+                consultarFuente3: "View source",
+
+                referencia4:
+                    "El Heraldo. (2024). EH Verifies: Were UFOs seen in Atlántico and other departments?",
+
+                consultarFuente4: "View source"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos traducibles
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (Object.prototype.hasOwnProperty.call(
+                    traducciones[idioma], clave
+                )) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de las imágenes
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (Object.prototype.hasOwnProperty.call(
+                    traducciones[idioma], clave
+                )) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

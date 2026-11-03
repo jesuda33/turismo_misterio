@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ovnis y Fenómenos Extraterrestres</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" data-i18n="navInicio">Inicio</a>
+            <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+            <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+            <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+            <a href="paranormal.html" data-i18n="navParanormal">Fenómenos Paranormales</a>
+
+            <!-- Selector de idioma -->
+            <div class="selector-idioma">
+                <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+                <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <h1 data-i18n="tituloPrincipal">Ovnis y Fenómenos Extraterrestres</h1>
+
+
+        <!-- Primera subsección: Casos documentados -->
+
+        <section>
+
+            <h2 data-i18n="casosDocumentados">Casos documentados</h2>
+
+            <article>
+
+                <h3>OVNIS sobre Barranquilla</h3>
+
+                <p data-i18n="ubicacionBarranquilla">
+                    Armada Nacional, Barranquilla, Atlántico.
+                </p>
+
+                <a href="experiencia_7.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Luces sobre Puerto Colombia</h3>
+
+                <p data-i18n="ubicacionPuerto">
+                    Zona costera / Malecón, Puerto Colombia, Atlántico.
+                </p>
+
+                <a href="experiencia_8.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>El cielo de Sabanalarga</h3>
+
+                <p data-i18n="ubicacionSabanalarga">
+                    Zona rural de Sabanalarga, Sabanalarga, Atlántico.
+                </p>
+
+                <a href="experiencia_9.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+
+        <!-- Segunda subsección: Historias de personas -->
+
+        <section>
+
+            <h2 data-i18n="historiasPersonas">Historias de personas</h2>
+
+            <article>
+
+                <h3>Las luces de Punta Astilleros</h3>
+
+                <p data-i18n="ubicacionPunta">
+                    Punta Astilleros, Piojó, Atlántico.
+                </p>
+
+                <a href="experiencia_10.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>Una noche frente al Caribe</h3>
+
+                <p data-i18n="ubicacionSalinas">
+                    Salinas del Rey, Juan de Acosta, Atlántico.
+                </p>
+
+                <a href="experiencia_11.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+
+            <article>
+
+                <h3>El cielo sobre Piojó</h3>
+
+                <p data-i18n="ubicacionPiojo">
+                    Zona rural de Piojó, Atlántico.
+                </p>
+
+                <a href="experiencia_12.html" data-i18n="verExperiencia">
+                    Ver experiencia
+                </a>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+                tituloPagina: "Ovnis y Fenómenos Extraterrestres",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Fenómenos Paranormales",
+
+                tituloPrincipal: "Ovnis y Fenómenos Extraterrestres",
+
+                casosDocumentados: "Casos documentados",
+
+                ubicacionBarranquilla:
+                    "Armada Nacional, Barranquilla, Atlántico.",
+
+                ubicacionPuerto:
+                    "Zona costera / Malecón, Puerto Colombia, Atlántico.",
+
+                ubicacionSabanalarga:
+                    "Zona rural de Sabanalarga, Sabanalarga, Atlántico.",
+
+                historiasPersonas:
+                    "Historias de personas",
+
+                ubicacionPunta:
+                    "Punta Astilleros, Piojó, Atlántico.",
+
+                ubicacionSalinas:
+                    "Salinas del Rey, Juan de Acosta, Atlántico.",
+
+                ubicacionPiojo:
+                    "Zona rural de Piojó, Atlántico.",
+
+                verExperiencia:
+                    "Ver experiencia"
+            },
+
+
+            en: {
+                tituloPagina: "UFOs and Extraterrestrial Phenomena",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal Phenomena",
+
+                tituloPrincipal: "UFOs and Extraterrestrial Phenomena",
+
+                casosDocumentados: "Documented Cases",
+
+                ubicacionBarranquilla:
+                    "National Navy, Barranquilla, Atlántico.",
+
+                ubicacionPuerto:
+                    "Coastal area / Boardwalk, Puerto Colombia, Atlántico.",
+
+                ubicacionSabanalarga:
+                    "Rural area of Sabanalarga, Sabanalarga, Atlántico.",
+
+                historiasPersonas:
+                    "Personal Stories",
+
+                ubicacionPunta:
+                    "Punta Astilleros, Piojó, Atlántico.",
+
+                ubicacionSalinas:
+                    "Salinas del Rey, Juan de Acosta, Atlántico.",
+
+                ubicacionPiojo:
+                    "Rural area of Piojó, Atlántico.",
+
+                verExperiencia:
+                    "View Experience"
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+</html>

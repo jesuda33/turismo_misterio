@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cementerio Calancala de Barranquilla</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="lugares.html" data-i18n="volver">
+            ← Volver a Lugares Misteriosos
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Cementerio Calancala de Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Sitios históricos y paranormales
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/calancala.jpg"
+            alt="Cementerio Católico Calancala de Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            En el suroccidente de Barranquilla se encuentra uno de los
+            camposantos más antiguos y representativos de la ciudad:
+            el Cementerio Católico Calancala. Sus muros, mausoleos,
+            lápidas y pasillos guardan más de un siglo de historias
+            relacionadas con las familias, las tradiciones religiosas
+            y la evolución de la sociedad barranquillera. Es un lugar
+            donde el pasado permanece presente a través de los recuerdos
+            de quienes descansan entre sus monumentos.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Sus orígenes se remontan a comienzos del siglo XX, cuando
+            un grupo de ciudadanos promovió la construcción de un
+            cementerio destinado a la comunidad católica de Barranquilla.
+            La iniciativa recibió el respaldo de las autoridades
+            eclesiásticas de la época y contó con un terreno donado
+            por los herederos de Manuel María Bula, ubicado en el
+            antiguo camino hacia Juan Mina. El proyecto dio origen
+            a un espacio que se convertiría en parte importante
+            de la historia religiosa y funeraria de la ciudad.
+        </p>
+
+        <p data-i18n="parrafo3">
+            El Cementerio Calancala fue inaugurado el 24 de octubre
+            de 1915, fecha en la que se realizó su primer entierro:
+            el de Sabina Atilano, una mujer originaria de Baranoa.
+            Con el paso de los años, su tumba adquirió un significado
+            especial dentro de la religiosidad popular. Algunas
+            personas comenzaron a visitarla para pedir favores
+            y agradecer supuestas intercesiones, convirtiéndola
+            en una de las figuras más recordadas del camposanto.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Su arquitectura también forma parte de su atractivo.
+            Entre sus espacios se encuentran antiguas tumbas,
+            monumentos funerarios, mausoleos familiares y una
+            capilla conocida como Cristo Redentor. Estos elementos
+            reflejan las costumbres religiosas y las formas de
+            recordar a los difuntos que han acompañado a distintas
+            generaciones de barranquilleros.
+        </p>
+
+        <!-- Misterio y tradición -->
+        <h2 data-i18n="tituloMisterio">
+            Entre la devoción y el misterio
+        </h2>
+
+        <p data-i18n="parrafo5">
+            Como ocurre en muchos cementerios tradicionales,
+            Calancala está rodeado de relatos populares sobre
+            experiencias inexplicables, prácticas relacionadas
+            con la brujería y creencias espirituales vinculadas
+            a los difuntos. Algunas de estas historias han sido
+            recogidas en testimonios de personas que trabajan
+            o visitan el lugar. La combinación de antiguas
+            sepulturas, tradiciones religiosas y creencias
+            populares ha contribuido a construir una atmósfera
+            de misterio alrededor del cementerio.
+        </p>
+
+        <p data-i18n="parrafo6">
+            Uno de los relatos más conocidos está relacionado
+            con Sabina Atilano, cuya tumba recibe visitas de
+            personas que le atribuyen favores y milagros.
+            Estas manifestaciones de fe hacen parte de la
+            religiosidad popular y de las tradiciones que
+            permanecen vivas entre algunos habitantes de
+            Barranquilla y sus alrededores.
+        </p>
+
+        <!-- Memoria histórica -->
+        <h2 data-i18n="tituloMemoria">
+            Un lugar que guarda historias sin resolver
+        </h2>
+
+        <p data-i18n="parrafo7">
+            Más allá de las leyendas y las creencias populares,
+            Calancala también conserva una historia profundamente
+            humana. Durante años, en sus instalaciones funcionó
+            una morgue del Instituto Nacional de Medicina Legal,
+            a donde fueron trasladados cuerpos de personas que
+            no pudieron ser identificadas. Algunos estaban
+            relacionados con hechos de violencia y con el
+            conflicto armado en la región Caribe.
+        </p>
+
+        <p data-i18n="parrafo8">
+            En septiembre de 2024, la Unidad de Búsqueda de
+            Personas dadas por Desaparecidas inició intervenciones
+            forenses en el cementerio para localizar y recuperar
+            cuerpos que podrían corresponder a personas
+            desaparecidas. En octubre de 2026, la entidad
+            informó sobre una nueva recuperación de diez cuerpos,
+            que se sumaron a las intervenciones anteriores.
+            Este trabajo representa una oportunidad para
+            reconstruir historias interrumpidas y ayudar a
+            numerosas familias a encontrar respuestas.
+        </p>
+
+        <p data-i18n="parrafo9">
+            Actualmente, el Cementerio Calancala representa
+            mucho más que un lugar de descanso. Es un espacio
+            donde convergen la historia religiosa, la memoria
+            de Barranquilla, las tradiciones populares y la
+            búsqueda de respuestas sobre acontecimientos
+            del pasado. Sus caminos invitan a descubrir una
+            parte de la ciudad que pocas veces se cuenta:
+            aquella que permanece entre sus tumbas, sus
+            monumentos y las historias de quienes aún
+            esperan ser recordados.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes</h2>
+
+        <p data-i18n="referencia1">
+            Conferencia Episcopal de Colombia. (2015).
+            Cien años del cementerio católico Calancala.
+        </p>
+
+        <a
+            href="https://www.cec.org.co/sistema-informativo/la-iglesia-en-colombia/cien-anos-del-cementerio-catolico-calancala"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            La Cháchara. (2022). Santidad y brujería, juntas
+            pero no revueltas en los cementerios Calancala y Universal.
+        </p>
+
+        <a
+            href="https://lachachara.org/santidad-y-brujeria-juntas-pero-no-revueltas-en-los-cementerios-calancala-y-universal/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar relato
+        </a>
+
+        <p data-i18n="referencia3">
+            Unidad de Búsqueda de Personas dadas por Desaparecidas.
+            (2024). La Unidad de Búsqueda inició intervención del
+            Cementerio Calancala de Barranquilla.
+        </p>
+
+        <a
+            href="https://unidadbusqueda.gov.co/actualidad/barranquilla-cementerio-calancala-intervencion-septiembre-2024/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar investigación
+        </a>
+
+        <p data-i18n="referencia4">
+            Unidad de Búsqueda de Personas dadas por Desaparecidas.
+            (2026). La Unidad de Búsqueda recupera 10 cuerpos en el
+            Cementerio Católico Calancala de Barranquilla.
+        </p>
+
+        <a
+            href="https://unidadbusqueda.gov.co/actualidad/atlantico-barranquilla-recuperacion-10-cuerpos-cementerio-catolico-calancala-octubre-2026/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Consultar investigación
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Cementerio Calancala de Barranquilla",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Lugares Misteriosos",
+
+                tituloPrincipal: "Cementerio Calancala de Barranquilla",
+
+                categoria: "Lugares Misteriosos / Sitios históricos y paranormales",
+
+                imagenAlt: "Cementerio Católico Calancala de Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "En el suroccidente de Barranquilla se encuentra uno de los camposantos más antiguos y representativos de la ciudad: el Cementerio Católico Calancala. Sus muros, mausoleos, lápidas y pasillos guardan más de un siglo de historias relacionadas con las familias, las tradiciones religiosas y la evolución de la sociedad barranquillera. Es un lugar donde el pasado permanece presente a través de los recuerdos de quienes descansan entre sus monumentos.",
+
+                parrafo2:
+                    "Sus orígenes se remontan a comienzos del siglo XX, cuando un grupo de ciudadanos promovió la construcción de un cementerio destinado a la comunidad católica de Barranquilla. La iniciativa recibió el respaldo de las autoridades eclesiásticas de la época y contó con un terreno donado por los herederos de Manuel María Bula, ubicado en el antiguo camino hacia Juan Mina. El proyecto dio origen a un espacio que se convertiría en parte importante de la historia religiosa y funeraria de la ciudad.",
+
+                parrafo3:
+                    "El Cementerio Calancala fue inaugurado el 24 de octubre de 1915, fecha en la que se realizó su primer entierro: el de Sabina Atilano, una mujer originaria de Baranoa. Con el paso de los años, su tumba adquirió un significado especial dentro de la religiosidad popular. Algunas personas comenzaron a visitarla para pedir favores y agradecer supuestas intercesiones, convirtiéndola en una de las figuras más recordadas del camposanto.",
+
+                parrafo4:
+                    "Su arquitectura también forma parte de su atractivo. Entre sus espacios se encuentran antiguas tumbas, monumentos funerarios, mausoleos familiares y una capilla conocida como Cristo Redentor. Estos elementos reflejan las costumbres religiosas y las formas de recordar a los difuntos que han acompañado a distintas generaciones de barranquilleros.",
+
+                tituloMisterio: "Entre la devoción y el misterio",
+
+                parrafo5:
+                    "Como ocurre en muchos cementerios tradicionales, Calancala está rodeado de relatos populares sobre experiencias inexplicables, prácticas relacionadas con la brujería y creencias espirituales vinculadas a los difuntos. Algunas de estas historias han sido recogidas en testimonios de personas que trabajan o visitan el lugar. La combinación de antiguas sepulturas, tradiciones religiosas y creencias populares ha contribuido a construir una atmósfera de misterio alrededor del cementerio.",
+
+                parrafo6:
+                    "Uno de los relatos más conocidos está relacionado con Sabina Atilano, cuya tumba recibe visitas de personas que le atribuyen favores y milagros. Estas manifestaciones de fe hacen parte de la religiosidad popular y de las tradiciones que permanecen vivas entre algunos habitantes de Barranquilla y sus alrededores.",
+
+                tituloMemoria: "Un lugar que guarda historias sin resolver",
+
+                parrafo7:
+                    "Más allá de las leyendas y las creencias populares, Calancala también conserva una historia profundamente humana. Durante años, en sus instalaciones funcionó una morgue del Instituto Nacional de Medicina Legal, a donde fueron trasladados cuerpos de personas que no pudieron ser identificadas. Algunos estaban relacionados con hechos de violencia y con el conflicto armado en la región Caribe.",
+
+                parrafo8:
+                    "En septiembre de 2024, la Unidad de Búsqueda de Personas dadas por Desaparecidas inició intervenciones forenses en el cementerio para localizar y recuperar cuerpos que podrían corresponder a personas desaparecidas. En octubre de 2026, la entidad informó sobre una nueva recuperación de diez cuerpos, que se sumaron a las intervenciones anteriores. Este trabajo representa una oportunidad para reconstruir historias interrumpidas y ayudar a numerosas familias a encontrar respuestas.",
+
+                parrafo9:
+                    "Actualmente, el Cementerio Calancala representa mucho más que un lugar de descanso. Es un espacio donde convergen la historia religiosa, la memoria de Barranquilla, las tradiciones populares y la búsqueda de respuestas sobre acontecimientos del pasado. Sus caminos invitan a descubrir una parte de la ciudad que pocas veces se cuenta: aquella que permanece entre sus tumbas, sus monumentos y las historias de quienes aún esperan ser recordados.",
+
+                tituloFuente: "Fuentes",
+
+                referencia1:
+                    "Conferencia Episcopal de Colombia. (2015). Cien años del cementerio católico Calancala.",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "La Cháchara. (2022). Santidad y brujería, juntas pero no revueltas en los cementerios Calancala y Universal.",
+
+                consultarFuente2: "Consultar relato",
+
+                referencia3:
+                    "Unidad de Búsqueda de Personas dadas por Desaparecidas. (2024). La Unidad de Búsqueda inició intervención del Cementerio Calancala de Barranquilla.",
+
+                consultarFuente3: "Consultar investigación",
+
+                referencia4:
+                    "Unidad de Búsqueda de Personas dadas por Desaparecidas. (2026). La Unidad de Búsqueda recupera 10 cuerpos en el Cementerio Católico Calancala de Barranquilla.",
+
+                consultarFuente4: "Consultar investigación"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "Calancala Cemetery of Barranquilla",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to Mysterious Places",
+
+                tituloPrincipal: "Calancala Cemetery of Barranquilla",
+
+                categoria: "Mysterious Places / Historical and Paranormal Sites",
+
+                imagenAlt: "Calancala Catholic Cemetery of Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "In southwestern Barranquilla stands one of the city's oldest and most representative burial grounds: Calancala Catholic Cemetery. Its walls, mausoleums, tombstones, and pathways preserve more than a century of stories related to families, religious traditions, and the evolution of Barranquilla's society. It is a place where the past remains present through the memories of those resting among its monuments.",
+
+                parrafo2:
+                    "Its origins date back to the beginning of the 20th century, when a group of citizens promoted the construction of a cemetery for Barranquilla's Catholic community. The initiative received the support of the ecclesiastical authorities of the time and was made possible by land donated by the heirs of Manuel María Bula, located along the old road to Juan Mina. The project gave rise to a place that would become an important part of the city's religious and funeral history.",
+
+                parrafo3:
+                    "Calancala Cemetery was inaugurated on October 24, 1915, when its first burial took place: that of Sabina Atilano, a woman from Baranoa. Over the years, her tomb acquired special significance within popular religious devotion. Some people began visiting her to request favors and express gratitude for what they believe to be miraculous intercessions, making her one of the cemetery's most remembered figures.",
+
+                parrafo4:
+                    "Its architecture is also part of its appeal. The cemetery contains old graves, funeral monuments, family mausoleums, and a chapel known as Christ the Redeemer. These elements reflect the religious customs and ways of remembering the deceased that have accompanied generations of Barranquilla residents.",
+
+                tituloMisterio: "Between Devotion and Mystery",
+
+                parrafo5:
+                    "As with many traditional cemeteries, Calancala is surrounded by popular accounts of unexplained experiences, practices associated with witchcraft, and spiritual beliefs connected to the deceased. Some of these stories have been collected through testimonies from people who work at or visit the site. The combination of old graves, religious traditions, and popular beliefs has contributed to the mysterious atmosphere surrounding the cemetery.",
+
+                parrafo6:
+                    "One of the best-known accounts is connected to Sabina Atilano, whose tomb is visited by people who attribute favors and miracles to her. These expressions of faith are part of popular religious devotion and traditions that remain alive among some residents of Barranquilla and its surrounding communities.",
+
+                tituloMemoria: "A Place That Holds Unresolved Stories",
+
+                parrafo7:
+                    "Beyond legends and popular beliefs, Calancala also preserves a deeply human history. For many years, a morgue belonging to the National Institute of Legal Medicine operated on its grounds, receiving the bodies of people who could not be identified. Some were connected to acts of violence and the armed conflict in the Caribbean region.",
+
+                parrafo8:
+                    "In September 2024, the Search Unit for Missing Persons began forensic interventions at the cemetery to locate and recover bodies that could belong to missing people. In October 2026, the organization reported the recovery of ten additional bodies, adding to those recovered during previous interventions. This work represents an opportunity to reconstruct interrupted stories and help numerous families find answers.",
+
+                parrafo9:
+                    "Today, Calancala Cemetery represents much more than a resting place. It is a space where religious history, the memory of Barranquilla, popular traditions, and the search for answers about past events come together. Its pathways invite visitors to discover a side of the city that is rarely told: the one preserved among its graves, monuments, and the stories of those who still deserve to be remembered.",
+
+                tituloFuente: "Sources",
+
+                referencia1:
+                    "Episcopal Conference of Colombia. (2015). One hundred years of Calancala Catholic Cemetery.",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "La Cháchara. (2022). Holiness and witchcraft together, but not mixed, in Calancala and Universal cemeteries.",
+
+                consultarFuente2: "Read account",
+
+                referencia3:
+                    "Search Unit for Missing Persons. (2024). The Search Unit began its intervention at Calancala Cemetery in Barranquilla.",
+
+                consultarFuente3: "View investigation",
+
+                referencia4:
+                    "Search Unit for Missing Persons. (2026). The Search Unit recovers 10 bodies at Calancala Catholic Cemetery in Barranquilla.",
+
+                consultarFuente4: "View investigation"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

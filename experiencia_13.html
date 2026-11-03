@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cementerio Universal de Barranquilla</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="lugares.html" data-i18n="volver">
+            ← Volver a Lugares Misteriosos
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Cementerio Universal de Barranquilla
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Sitios históricos y paranormales
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/cementerio_1.jpg"
+            alt="Cementerio Universal de Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            En el corazón de Barranquilla existe un lugar donde el tiempo
+            parece detenerse entre antiguos mausoleos, esculturas de mármol
+            y lápidas que conservan los nombres de generaciones pasadas.
+            Se trata del Cementerio Universal, uno de los espacios funerarios
+            más representativos de la historia de la ciudad y un escenario
+            que guarda parte de la memoria de quienes contribuyeron a su
+            desarrollo.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Sus orígenes se remontan a 1867, cuando se fundó la Sociedad
+            Hermanos de la Caridad, organización que impulsó la construcción
+            de un cementerio destinado a recibir a las personas sin distinción
+            de religión, procedencia o creencias. El camposanto abrió sus
+            puertas el 9 de abril de 1872 y se convirtió en un espacio
+            significativo para una sociedad que comenzaba a experimentar
+            importantes transformaciones culturales y sociales.
+        </p>
+
+        <p data-i18n="parrafo3">
+            Una de las características más interesantes del cementerio es
+            su diversidad arquitectónica. Sus pasillos albergan mausoleos,
+            esculturas, monumentos y lápidas que reflejan diferentes estilos
+            artísticos y épocas. Algunas de estas construcciones fueron
+            elaboradas con materiales importados y muestran la influencia
+            de las comunidades extranjeras, comerciantes y familias que
+            participaron en el crecimiento de Barranquilla.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Más allá de su importancia histórica, el Cementerio Universal
+            también despierta curiosidad por la atmósfera de sus antiguos
+            monumentos y las historias que pueden surgir al recorrer sus
+            silenciosos caminos. Como sucede con muchos cementerios
+            tradicionales, estos espacios suelen estar rodeados de relatos
+            sobre apariciones, presencias inexplicables y experiencias
+            atribuidas a quienes los visitan. Sin embargo, estas historias
+            forman parte del imaginario popular y no deben confundirse
+            con hechos comprobados.
+        </p>
+
+        <p data-i18n="parrafo5">
+            Hoy, el Cementerio Universal representa mucho más que un lugar
+            de descanso. Es un testimonio de la diversidad cultural, las
+            tradiciones funerarias y la evolución arquitectónica de
+            Barranquilla. Sus monumentos conservan fragmentos de una
+            historia que permanece presente entre sus calles y que invita
+            a descubrir los recuerdos de una ciudad que también puede
+            contarse a través de sus muertos.
+        </p>
+
+        <!-- Sección de misterio -->
+        <h2 data-i18n="tituloMisterio">
+            Entre la memoria y el misterio
+        </h2>
+
+        <p data-i18n="parrafo6">
+            Cuando cae la noche, la imagen de sus esculturas, mausoleos
+            y antiguas lápidas puede alimentar la imaginación de quienes
+            sienten fascinación por los lugares cargados de historia.
+            El silencio, las sombras y el paso del tiempo crean una
+            atmósfera particular que convierte este camposanto en un
+            escenario interesante para explorar la relación entre
+            memoria, tradición y misterio en el Caribe colombiano.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes</h2>
+
+        <p data-i18n="referencia1">
+            Alcaldía de Barranquilla. (2025). Una cita con la historia
+            y el arte funerario de Barranquilla: Ruta Patrimonial
+            Cementerio Universal.
+        </p>
+
+        <a
+            href="https://barranquilla.gov.co/secretaria-general-del-distrito/una-cita-con-la-historia-y-el-arte-funerario-de-barranquilla-ruta-patrimonial-cementerio-universal"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            El Tiempo. (2021). Barranquilla: mausoleos del cementerio
+            Universal, atractivo turístico.
+        </p>
+
+        <a
+            href="https://www.eltiempo.com/colombia/barranquilla/barranquilla-mausoleos-del-cementerio-universal-atractivo-turistico-628328"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia3">
+            López García, J. Barranquilla, ciudad progresista construye
+            un cementerio universal. Revista Epokhé, Universidad del Atlántico.
+        </p>
+
+        <a
+            href="https://revistas.uniatlantico.edu.co/index.php/Epokhe/article/view/3409"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar investigación
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Cementerio Universal de Barranquilla",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver a Lugares Misteriosos",
+
+                tituloPrincipal: "Cementerio Universal de Barranquilla",
+
+                categoria: "Lugares Misteriosos / Sitios históricos y paranormales",
+
+                imagenAlt: "Cementerio Universal de Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "En el corazón de Barranquilla existe un lugar donde el tiempo parece detenerse entre antiguos mausoleos, esculturas de mármol y lápidas que conservan los nombres de generaciones pasadas. Se trata del Cementerio Universal, uno de los espacios funerarios más representativos de la historia de la ciudad y un escenario que guarda parte de la memoria de quienes contribuyeron a su desarrollo.",
+
+                parrafo2:
+                    "Sus orígenes se remontan a 1867, cuando se fundó la Sociedad Hermanos de la Caridad, organización que impulsó la construcción de un cementerio destinado a recibir a las personas sin distinción de religión, procedencia o creencias. El camposanto abrió sus puertas el 9 de abril de 1872 y se convirtió en un espacio significativo para una sociedad que comenzaba a experimentar importantes transformaciones culturales y sociales.",
+
+                parrafo3:
+                    "Una de las características más interesantes del cementerio es su diversidad arquitectónica. Sus pasillos albergan mausoleos, esculturas, monumentos y lápidas que reflejan diferentes estilos artísticos y épocas. Algunas de estas construcciones fueron elaboradas con materiales importados y muestran la influencia de las comunidades extranjeras, comerciantes y familias que participaron en el crecimiento de Barranquilla.",
+
+                parrafo4:
+                    "Más allá de su importancia histórica, el Cementerio Universal también despierta curiosidad por la atmósfera de sus antiguos monumentos y las historias que pueden surgir al recorrer sus silenciosos caminos. Como sucede con muchos cementerios tradicionales, estos espacios suelen estar rodeados de relatos sobre apariciones, presencias inexplicables y experiencias atribuidas a quienes los visitan. Sin embargo, estas historias forman parte del imaginario popular y no deben confundirse con hechos comprobados.",
+
+                parrafo5:
+                    "Hoy, el Cementerio Universal representa mucho más que un lugar de descanso. Es un testimonio de la diversidad cultural, las tradiciones funerarias y la evolución arquitectónica de Barranquilla. Sus monumentos conservan fragmentos de una historia que permanece presente entre sus calles y que invita a descubrir los recuerdos de una ciudad que también puede contarse a través de sus muertos.",
+
+                tituloMisterio: "Entre la memoria y el misterio",
+
+                parrafo6:
+                    "Cuando cae la noche, la imagen de sus esculturas, mausoleos y antiguas lápidas puede alimentar la imaginación de quienes sienten fascinación por los lugares cargados de historia. El silencio, las sombras y el paso del tiempo crean una atmósfera particular que convierte este camposanto en un escenario interesante para explorar la relación entre memoria, tradición y misterio en el Caribe colombiano.",
+
+                tituloFuente: "Fuentes",
+
+                referencia1:
+                    "Alcaldía de Barranquilla. (2025). Una cita con la historia y el arte funerario de Barranquilla: Ruta Patrimonial Cementerio Universal.",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "El Tiempo. (2021). Barranquilla: mausoleos del cementerio Universal, atractivo turístico.",
+
+                consultarFuente2: "Consultar fuente",
+
+                referencia3:
+                    "López García, J. Barranquilla, ciudad progresista construye un cementerio universal. Revista Epokhé, Universidad del Atlántico.",
+
+                consultarFuente3: "Consultar investigación"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "Universal Cemetery of Barranquilla",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to Mysterious Places",
+
+                tituloPrincipal: "Universal Cemetery of Barranquilla",
+
+                categoria: "Mysterious Places / Historical and Paranormal Sites",
+
+                imagenAlt: "Universal Cemetery of Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "In the heart of Barranquilla, there is a place where time seems to stand still among ancient mausoleums, marble sculptures, and tombstones bearing the names of past generations. This is the Universal Cemetery, one of the city's most significant burial grounds and a place that preserves part of the memory of those who contributed to its development.",
+
+                parrafo2:
+                    "Its origins date back to 1867, when the Society of the Brothers of Charity was founded. This organization promoted the construction of a cemetery intended to welcome people regardless of their religion, origin, or beliefs. The cemetery opened its gates on April 9, 1872, becoming a significant place for a society beginning to experience important cultural and social transformations.",
+
+                parrafo3:
+                    "One of the cemetery's most interesting features is its architectural diversity. Its pathways contain mausoleums, sculptures, monuments, and tombstones reflecting different artistic styles and historical periods. Some of these structures were built using imported materials and reveal the influence of foreign communities, merchants, and families who contributed to Barranquilla's growth.",
+
+                parrafo4:
+                    "Beyond its historical importance, the Universal Cemetery also sparks curiosity because of the atmosphere surrounding its old monuments and the stories that may emerge while walking along its quiet pathways. As with many traditional cemeteries, these places are often surrounded by accounts of apparitions, unexplained presences, and experiences attributed to visitors. However, these stories belong to popular imagination and should not be confused with verified facts.",
+
+                parrafo5:
+                    "Today, the Universal Cemetery represents much more than a resting place. It is a testament to Barranquilla's cultural diversity, funeral traditions, and architectural evolution. Its monuments preserve fragments of a history that remains present throughout the city and invite visitors to discover the memories of a place whose story can also be told through its departed inhabitants.",
+
+                tituloMisterio: "Between Memory and Mystery",
+
+                parrafo6:
+                    "As night falls, the sight of its sculptures, mausoleums, and ancient tombstones can spark the imagination of those fascinated by places filled with history. Silence, shadows, and the passage of time create a distinctive atmosphere, turning this cemetery into an interesting setting for exploring the relationship between memory, tradition, and mystery in the Colombian Caribbean.",
+
+                tituloFuente: "Sources",
+
+                referencia1:
+                    "Barranquilla City Hall. (2025). A date with the history and funeral art of Barranquilla: Universal Cemetery Heritage Route.",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "El Tiempo. (2021). Barranquilla: Universal Cemetery mausoleums as a tourist attraction.",
+
+                consultarFuente2: "View source",
+
+                referencia3:
+                    "López García, J. Barranquilla, a progressive city builds a universal cemetery. Epokhé Journal, Universidad del Atlántico.",
+
+                consultarFuente3: "View research"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Voces y Relatos de Usiacurí</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="paranormal.html" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Voces y Relatos de Usiacurí
+        </h1>
+
+        <p data-i18n="categoria">
+            Lugares Misteriosos / Tradición oral y memoria cultural
+        </p>
+
+        <!-- Imagen principal -->
+        <img
+            src="img/usiacuri.jpg"
+            alt="Paisaje tradicional del municipio de Usiacurí, Atlántico"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">Un pueblo donde las historias cobran vida</h2>
+
+        <p data-i18n="parrafo1">
+            Entre las colinas del departamento del Atlántico se
+            encuentra Usiacurí, un municipio conocido como el
+            Pesebre del Atlántico. Sus calles, viviendas coloridas,
+            paisajes naturales y tradiciones artesanales conservan
+            la esencia de un pueblo donde las historias se transmiten
+            de generación en generación. Detrás de su tranquilidad
+            existe una memoria colectiva construida por sus
+            habitantes, sus costumbres y los relatos que forman
+            parte de la identidad de la región.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Usiacurí también guarda una historia relacionada con
+            sus antiguas fuentes de aguas mineromedicinales.
+            Durante muchos años, personas de diferentes lugares
+            llegaron al municipio atraídas por la fama de sus
+            pozos y sus propiedades medicinales. Estas aguas
+            despertaron el interés de visitantes y viajeros,
+            y contribuyeron a que el pueblo fuera reconocido
+            como un lugar de descanso y recuperación.
+        </p>
+
+        <p data-i18n="parrafo3">
+            Uno de los personajes más importantes de esta historia
+            fue el poeta Julio Flórez, quien estableció su residencia
+            en Usiacurí en 1910. En este municipio pasó los últimos
+            años de su vida junto a su familia, encontrando en
+            sus paisajes y tranquilidad un espacio para la creación
+            literaria. Su casa se conserva actualmente como museo,
+            donde permanecen objetos personales, recuerdos y
+            elementos que permiten acercarse a la vida del poeta.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Las historias de Usiacurí también están tejidas en
+            las manos de sus artesanos. La elaboración de objetos
+            con palma de iraca se convirtió en una de las
+            expresiones culturales más representativas del
+            municipio. Sombreros, bolsos, abanicos, individuales
+            y diferentes piezas artesanales reflejan conocimientos
+            transmitidos entre generaciones, especialmente por
+            mujeres que han mantenido vivo este oficio. Cada
+            tejido guarda una historia de paciencia, creatividad
+            y tradición familiar.
+        </p>
+
+        <p data-i18n="parrafo5">
+            Más allá de sus calles y construcciones, Usiacurí
+            conserva espacios naturales que despiertan curiosidad.
+            La reserva de Luriza, un bosque seco tropical ubicado
+            cerca del casco urbano, alberga una gran diversidad
+            de animales y plantas. Sus senderos, árboles y sonidos
+            de la naturaleza crean una atmósfera especial para
+            quienes recorren este territorio. Entre sus habitantes
+            también permanecen recuerdos y relatos relacionados
+            con el monte, los caminos antiguos y las experiencias
+            vividas en sus alrededores.
+        </p>
+
+        <p data-i18n="parrafo6">
+            Otro elemento que forma parte de la memoria del pueblo
+            son las historias relacionadas con sus pozos, colinas
+            y antiguas viviendas. En las conversaciones familiares
+            y comunitarias sobreviven anécdotas sobre personajes
+            del pasado, costumbres desaparecidas y acontecimientos
+            que marcaron la vida de sus habitantes. Algunos relatos
+            pueden adquirir un tono misterioso, especialmente
+            cuando se relacionan con lugares antiguos o experiencias
+            difíciles de explicar. Sin embargo, estas narraciones
+            hacen parte de la tradición oral y no necesariamente
+            corresponden a sucesos documentados.
+        </p>
+
+        <p data-i18n="parrafo7">
+            Las voces de Usiacurí también se escuchan en sus
+            celebraciones, sus talleres artesanales y las
+            conversaciones de sus habitantes. Cada familia
+            conserva recuerdos sobre el pueblo, sus transformaciones
+            y las personas que contribuyeron a construir su
+            identidad. Son relatos que permiten comprender
+            cómo un territorio puede preservar su pasado a
+            través de la palabra, el arte y las costumbres.
+        </p>
+
+        <p data-i18n="parrafo8">
+            Hoy, Usiacurí representa un encuentro entre naturaleza,
+            patrimonio y tradición. Su historia no solamente
+            está escrita en documentos o conservada en museos:
+            también permanece en la memoria de sus habitantes,
+            en los tejidos de palma de iraca y en los relatos
+            que todavía se comparten al caer la tarde. Escuchar
+            esas voces es descubrir otra forma de conocer
+            los misterios del Caribe colombiano.
+        </p>
+
+        <!-- Lugares de interés -->
+        <h2 data-i18n="tituloLugares">
+            Lugares para descubrir las historias de Usiacurí
+        </h2>
+
+        <p data-i18n="lugar1">
+            Casa Museo Julio Flórez: antigua residencia del poeta,
+            donde se conservan objetos personales y recuerdos
+            de su vida y obra literaria.
+        </p>
+
+        <p data-i18n="lugar2">
+            Reserva Natural de Luriza: bosque seco tropical
+            que alberga una importante diversidad de fauna
+            y flora del Caribe colombiano.
+        </p>
+
+        <p data-i18n="lugar3">
+            Centro de Desarrollo Artesanal Corina Urueta:
+            espacio dedicado a preservar y promover el trabajo
+            de los artesanos de palma de iraca.
+        </p>
+
+        <p data-i18n="lugar4">
+            Parque Mirador: lugar desde donde se pueden
+            contemplar los paisajes y las características
+            construcciones del municipio.
+        </p>
+
+        <p data-i18n="lugar5">
+            Pozos de aguas mineromedicinales: fuentes de agua
+            que forman parte de la historia turística y
+            cultural de Usiacurí.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes y referencias</h2>
+
+        <p data-i18n="referencia1">
+            Gobernación del Atlántico. Naturaleza, cultura e
+            historia en un solo lugar: Usiacurí. Información
+            sobre el patrimonio, la Casa Julio Flórez,
+            las artesanías y la reserva de Luriza.
+        </p>
+
+        <a
+            href="https://www.atlantico.gov.co/index.php/noticias/gobernadora/18041-naturaleza"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            Artesanías de Colombia. (1987). La iraca en el
+            municipio de Usiacurí. Investigación sobre
+            la tradición artesanal y sus técnicas de tejido.
+        </p>
+
+        <a
+            href="https://repositorio.artesaniasdecolombia.com.co/handle/001/10113"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar investigación
+        </a>
+
+        <p data-i18n="referencia3">
+            Gobernación del Atlántico. Anuario Estadístico
+            del Atlántico. Información histórica sobre
+            Usiacurí, Julio Flórez y sus tradiciones artesanales.
+        </p>
+
+        <a
+            href="https://www.atlantico.gov.co/images/stories/adjuntos/planeacion/anuarios/Dpto_Atlantico-Anuario_2017.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar documento histórico
+        </a>
+
+        <p data-i18n="referencia4">
+            Universidad Tecnológica de Bolívar. (2016).
+            Propuesta de turismo en el municipio de Usiacurí,
+            Atlántico. Investigación sobre sus atractivos
+            culturales y naturales.
+        </p>
+
+        <a
+            href="https://hdl.handle.net/20.500.12585/2868"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente4"
+        >
+            Consultar investigación
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        // Traducciones de la página
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Voces y Relatos de Usiacurí",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver",
+
+                tituloPrincipal: "Voces y Relatos de Usiacurí",
+
+                categoria: "Lugares Misteriosos / Tradición oral y memoria cultural",
+
+                imagenAlt: "Paisaje tradicional del municipio de Usiacurí, Atlántico",
+
+                tituloHistoria: "Un pueblo donde las historias cobran vida",
+
+                parrafo1:
+                    "Entre las colinas del departamento del Atlántico se encuentra Usiacurí, un municipio conocido como el Pesebre del Atlántico. Sus calles, viviendas coloridas, paisajes naturales y tradiciones artesanales conservan la esencia de un pueblo donde las historias se transmiten de generación en generación. Detrás de su tranquilidad existe una memoria colectiva construida por sus habitantes, sus costumbres y los relatos que forman parte de la identidad de la región.",
+
+                parrafo2:
+                    "Usiacurí también guarda una historia relacionada con sus antiguas fuentes de aguas mineromedicinales. Durante muchos años, personas de diferentes lugares llegaron al municipio atraídas por la fama de sus pozos y sus propiedades medicinales. Estas aguas despertaron el interés de visitantes y viajeros, y contribuyeron a que el pueblo fuera reconocido como un lugar de descanso y recuperación.",
+
+                parrafo3:
+                    "Uno de los personajes más importantes de esta historia fue el poeta Julio Flórez, quien estableció su residencia en Usiacurí en 1910. En este municipio pasó los últimos años de su vida junto a su familia, encontrando en sus paisajes y tranquilidad un espacio para la creación literaria. Su casa se conserva actualmente como museo, donde permanecen objetos personales, recuerdos y elementos que permiten acercarse a la vida del poeta.",
+
+                parrafo4:
+                    "Las historias de Usiacurí también están tejidas en las manos de sus artesanos. La elaboración de objetos con palma de iraca se convirtió en una de las expresiones culturales más representativas del municipio. Sombreros, bolsos, abanicos, individuales y diferentes piezas artesanales reflejan conocimientos transmitidos entre generaciones, especialmente por mujeres que han mantenido vivo este oficio. Cada tejido guarda una historia de paciencia, creatividad y tradición familiar.",
+
+                parrafo5:
+                    "Más allá de sus calles y construcciones, Usiacurí conserva espacios naturales que despiertan curiosidad. La reserva de Luriza, un bosque seco tropical ubicado cerca del casco urbano, alberga una gran diversidad de animales y plantas. Sus senderos, árboles y sonidos de la naturaleza crean una atmósfera especial para quienes recorren este territorio. Entre sus habitantes también permanecen recuerdos y relatos relacionados con el monte, los caminos antiguos y las experiencias vividas en sus alrededores.",
+
+                parrafo6:
+                    "Otro elemento que forma parte de la memoria del pueblo son las historias relacionadas con sus pozos, colinas y antiguas viviendas. En las conversaciones familiares y comunitarias sobreviven anécdotas sobre personajes del pasado, costumbres desaparecidas y acontecimientos que marcaron la vida de sus habitantes. Algunos relatos pueden adquirir un tono misterioso, especialmente cuando se relacionan con lugares antiguos o experiencias difíciles de explicar. Sin embargo, estas narraciones hacen parte de la tradición oral y no necesariamente corresponden a sucesos documentados.",
+
+                parrafo7:
+                    "Las voces de Usiacurí también se escuchan en sus celebraciones, sus talleres artesanales y las conversaciones de sus habitantes. Cada familia conserva recuerdos sobre el pueblo, sus transformaciones y las personas que contribuyeron a construir su identidad. Son relatos que permiten comprender cómo un territorio puede preservar su pasado a través de la palabra, el arte y las costumbres.",
+
+                parrafo8:
+                    "Hoy, Usiacurí representa un encuentro entre naturaleza, patrimonio y tradición. Su historia no solamente está escrita en documentos o conservada en museos: también permanece en la memoria de sus habitantes, en los tejidos de palma de iraca y en los relatos que todavía se comparten al caer la tarde. Escuchar esas voces es descubrir otra forma de conocer los misterios del Caribe colombiano.",
+
+                tituloLugares: "Lugares para descubrir las historias de Usiacurí",
+
+                lugar1:
+                    "Casa Museo Julio Flórez: antigua residencia del poeta, donde se conservan objetos personales y recuerdos de su vida y obra literaria.",
+
+                lugar2:
+                    "Reserva Natural de Luriza: bosque seco tropical que alberga una importante diversidad de fauna y flora del Caribe colombiano.",
+
+                lugar3:
+                    "Centro de Desarrollo Artesanal Corina Urueta: espacio dedicado a preservar y promover el trabajo de los artesanos de palma de iraca.",
+
+                lugar4:
+                    "Parque Mirador: lugar desde donde se pueden contemplar los paisajes y las características construcciones del municipio.",
+
+                lugar5:
+                    "Pozos de aguas mineromedicinales: fuentes de agua que forman parte de la historia turística y cultural de Usiacurí.",
+
+                tituloFuente: "Fuentes y referencias",
+
+                referencia1:
+                    "Gobernación del Atlántico. Naturaleza, cultura e historia en un solo lugar: Usiacurí. Información sobre el patrimonio, la Casa Julio Flórez, las artesanías y la reserva de Luriza.",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "Artesanías de Colombia. (1987). La iraca en el municipio de Usiacurí. Investigación sobre la tradición artesanal y sus técnicas de tejido.",
+
+                consultarFuente2: "Consultar investigación",
+
+                referencia3:
+                    "Gobernación del Atlántico. Anuario Estadístico del Atlántico. Información histórica sobre Usiacurí, Julio Flórez y sus tradiciones artesanales.",
+
+                consultarFuente3: "Consultar documento histórico",
+
+                referencia4:
+                    "Universidad Tecnológica de Bolívar. (2016). Propuesta de turismo en el municipio de Usiacurí, Atlántico. Investigación sobre sus atractivos culturales y naturales.",
+
+                consultarFuente4: "Consultar investigación"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "Voices and Stories of Usiacurí",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to",
+
+                tituloPrincipal: "Voices and Stories of Usiacurí",
+
+                categoria: "Mysterious Places / Oral Tradition and Cultural Memory",
+
+                imagenAlt: "Traditional landscape of Usiacurí, Atlántico",
+
+                tituloHistoria: "A Village Where Stories Come to Life",
+
+                parrafo1:
+                    "Among the hills of the Atlántico department lies Usiacurí, a municipality known as the Nativity Scene of Atlántico. Its streets, colorful houses, natural landscapes, and craft traditions preserve the essence of a town where stories are passed down from generation to generation. Behind its peaceful atmosphere lies a collective memory shaped by its inhabitants, customs, and the stories that form part of the region's identity.",
+
+                parrafo2:
+                    "Usiacurí also preserves a history connected to its ancient mineral and medicinal water springs. For many years, people from different places traveled to the municipality, attracted by the reputation of its wells and their medicinal properties. These waters attracted visitors and travelers and helped establish the town's reputation as a place of rest and recovery.",
+
+                parrafo3:
+                    "One of the most important figures in this history was the poet Julio Flórez, who established his residence in Usiacurí in 1910. He spent the final years of his life in this municipality with his family, finding inspiration for his literary work in its landscapes and peaceful atmosphere. His house is now preserved as a museum, where personal belongings, memories, and objects allow visitors to discover the poet's life.",
+
+                parrafo4:
+                    "The stories of Usiacurí are also woven into the hands of its artisans. The creation of objects using iraca palm became one of the municipality's most representative cultural expressions. Hats, bags, fans, table mats, and other handmade pieces reflect knowledge passed down through generations, especially by women who have kept this craft alive. Every woven piece carries a story of patience, creativity, and family tradition.",
+
+                parrafo5:
+                    "Beyond its streets and buildings, Usiacurí preserves natural spaces that awaken curiosity. The Luriza Reserve, a tropical dry forest located near the town center, is home to a great diversity of animals and plants. Its trails, trees, and sounds of nature create a special atmosphere for those who explore this territory. Residents also preserve memories and stories related to the forest, old paths, and experiences in the surrounding areas.",
+
+                parrafo6:
+                    "Another element of the town's memory is the stories associated with its wells, hills, and old houses. Family and community conversations preserve anecdotes about people from the past, forgotten customs, and events that shaped the lives of its inhabitants. Some stories may take on a mysterious tone, especially when connected to old places or difficult-to-explain experiences. However, these narratives belong to oral tradition and do not necessarily correspond to documented events.",
+
+                parrafo7:
+                    "The voices of Usiacurí can also be heard in its celebrations, craft workshops, and conversations among its inhabitants. Every family preserves memories of the town, its transformations, and the people who helped shape its identity. These stories show how a community can preserve its past through words, art, and customs.",
+
+                parrafo8:
+                    "Today, Usiacurí represents a meeting point between nature, heritage, and tradition. Its history is not only written in documents or preserved in museums: it also lives in the memories of its inhabitants, in iraca palm weaving, and in the stories still shared at dusk. Listening to these voices offers another way to discover the mysteries of the Colombian Caribbean.",
+
+                tituloLugares: "Places to Discover the Stories of Usiacurí",
+
+                lugar1:
+                    "Julio Flórez House Museum: the poet's former residence, where personal belongings and memories of his life and literary work are preserved.",
+
+                lugar2:
+                    "Luriza Natural Reserve: a tropical dry forest home to an important diversity of Colombian Caribbean wildlife and plant species.",
+
+                lugar3:
+                    "Corina Urueta Artisan Development Center: a space dedicated to preserving and promoting the work of iraca palm artisans.",
+
+                lugar4:
+                    "Park and Viewpoint: a place from which visitors can admire the landscapes and distinctive architecture of the municipality.",
+
+                lugar5:
+                    "Mineral and Medicinal Water Wells: water springs that form part of Usiacurí's tourism and cultural history.",
+
+                tituloFuente: "Sources and References",
+
+                referencia1:
+                    "Government of Atlántico. Nature, Culture, and History in One Place: Usiacurí. Information about heritage, the Julio Flórez House, crafts, and the Luriza Reserve.",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "Artesanías de Colombia. (1987). Iraca Palm in the Municipality of Usiacurí. Research on craft traditions and weaving techniques.",
+
+                consultarFuente2: "View research",
+
+                referencia3:
+                    "Government of Atlántico. Statistical Yearbook of Atlántico. Historical information about Usiacurí, Julio Flórez, and its craft traditions.",
+
+                consultarFuente3: "View historical document",
+
+                referencia4:
+                    "Universidad Tecnológica de Bolívar. (2016). Tourism Proposal for the Municipality of Usiacurí, Atlántico. Research on its cultural and natural attractions.",
+
+                consultarFuente4: "View research"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            // Comprobar que el idioma exista
+            if (!traducciones[idioma]) return;
+
+            // Recorrer los elementos que tienen traducción
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir el texto alternativo de la imagen
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave]) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar el título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar el idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar el botón activo
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar el idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar el idioma guardado al abrir la página
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,412 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Los Fantasmas del Hotel El Prado</title>
+
+    <!-- Tipografía retro VT323 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html" data-i18n="navInicio">Inicio</a>
+        <a href="mitos.html" data-i18n="navMitos">Mitos y Leyendas</a>
+        <a href="ovnis.html" data-i18n="navOvnis">Ovnis</a>
+        <a href="lugares.html" data-i18n="navLugares">Lugares Misteriosos</a>
+        <a href="paranormal.html" data-i18n="navParanormal">Paranormal</a>
+
+        <!-- Selector de idioma -->
+        <div class="selector-idioma">
+            <button id="btn-es" class="activo" onclick="cambiarIdioma('es')">ES</button>
+            <button id="btn-en" onclick="cambiarIdioma('en')">EN</button>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Volver -->
+        <a href="lugares.html" data-i18n="volver">
+            ← Volver
+        </a>
+
+        <!-- Título -->
+        <h1 data-i18n="tituloPrincipal">
+            Los Fantasmas del Hotel El Prado
+        </h1>
+
+        <p data-i18n="categoria">
+            Paranormal / Relatos y leyendas urbanas
+        </p>
+
+        <!-- Imagen -->
+        <img
+            src="img/elprado.jpg"
+            alt="Fachada histórica del Hotel El Prado de Barranquilla"
+            width="100%"
+            data-i18n-alt="imagenAlt"
+        >
+
+        <!-- Historia -->
+        <h2 data-i18n="tituloHistoria">La historia</h2>
+
+        <p data-i18n="parrafo1">
+            En el tradicional barrio El Prado de Barranquilla se encuentra
+            uno de los edificios más emblemáticos de la ciudad: el Hotel
+            El Prado. Su arquitectura republicana, sus amplios corredores,
+            sus jardines y su larga trayectoria han convertido este lugar
+            en un símbolo de la memoria histórica y cultural del Caribe
+            colombiano.
+        </p>
+
+        <p data-i18n="parrafo2">
+            Sin embargo, alrededor de su historia también surgieron
+            rumores sobre supuestas apariciones y fenómenos paranormales.
+            Las versiones comenzaron a circular con mayor fuerza en
+            septiembre de 2022, cuando un creador de contenido publicó
+            una historia en Instagram en la que mencionaba que buscaría
+            fantasmas dentro del establecimiento.
+        </p>
+
+        <p data-i18n="parrafo3">
+            La publicación generó comentarios y especulaciones entre
+            los usuarios de las redes sociales. Algunos relatos hablaban
+            de supuestas presencias en sectores del hotel, especialmente
+            en espacios antiguos y zonas poco concurridas. Estas versiones
+            alimentaron la curiosidad de quienes sienten fascinación por
+            los misterios y las historias sobrenaturales de Barranquilla.
+        </p>
+
+        <p data-i18n="parrafo4">
+            Ante la situación, la administración del Hotel El Prado
+            publicó un comunicado en septiembre de 2022 en el que
+            rechazó las afirmaciones sobre supuestos fantasmas en sus
+            instalaciones y aclaró que no existían evidencias de
+            actividad paranormal en el establecimiento.
+        </p>
+
+        <p data-i18n="parrafo5">
+            El episodio despertó el interés de los medios de comunicación
+            y convirtió al hotel en protagonista de una curiosa polémica
+            relacionada con el misterio, las redes sociales y las leyendas
+            urbanas de la ciudad.
+        </p>
+
+        <!-- Historia del lugar -->
+        <h2 data-i18n="tituloHistoriaHotel">
+            Un hotel lleno de historia
+        </h2>
+
+        <p data-i18n="parrafo6">
+            Más allá de los rumores, el Hotel El Prado posee una historia
+            que merece ser conocida. Su construcción comenzó en 1927
+            y fue inaugurado en 1930. Desde entonces, se convirtió en
+            uno de los establecimientos hoteleros más representativos
+            de Colombia y en un referente arquitectónico de Barranquilla.
+        </p>
+
+        <p data-i18n="parrafo7">
+            Su arquitectura, sus espacios tradicionales y su importancia
+            para el desarrollo turístico de la ciudad han contribuido a
+            crear una atmósfera particular. Para muchos visitantes,
+            recorrer sus instalaciones es también acercarse a una parte
+            importante de la historia de Barranquilla.
+        </p>
+
+        <!-- Misterio -->
+        <h2 data-i18n="tituloMisterio">
+            Entre la historia y el misterio
+        </h2>
+
+        <p data-i18n="parrafo8">
+            ¿Existen realmente fantasmas en el Hotel El Prado?
+            Hasta el momento, no existen pruebas verificables que
+            demuestren la presencia de fenómenos sobrenaturales
+            en sus instalaciones. Lo que sí está documentado es
+            la controversia de 2022 y la respuesta pública de
+            la administración del hotel.
+        </p>
+
+        <p data-i18n="parrafo9">
+            Esta historia demuestra cómo un edificio histórico puede
+            convertirse en escenario de rumores, especulaciones y
+            relatos que despiertan la imaginación colectiva.
+            En Archivos Misteriosos, el caso se presenta como parte
+            de las historias urbanas que alimentan la fascinación
+            por lo desconocido en el Caribe colombiano.
+        </p>
+
+        <!-- Fuente -->
+        <h2 data-i18n="tituloFuente">Fuentes</h2>
+
+        <p data-i18n="referencia1">
+            Caracol Radio. (2022). ¿Por qué el hotel El Prado en
+            Barranquilla negó la presencia de fantasmas?
+        </p>
+
+        <a
+            href="https://caracol.com.co/2022/09/28/por-que-el-hotel-el-prado-en-barranquilla-nego-la-presencia-de-fantasmas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente1"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia2">
+            El Heraldo. (2022). Hotel El Prado desmiente que haya
+            fantasmas en sus instalaciones.
+        </p>
+
+        <a
+            href="https://www.elheraldo.co/atlantico/2022/09/28/hotel-el-prado-desmiente-que-haya-fantasmas-en-sus-instalaciones-941959/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente2"
+        >
+            Consultar fuente
+        </a>
+
+        <p data-i18n="referencia3">
+            Hotel El Prado. Historia institucional del establecimiento.
+        </p>
+
+        <a
+            href="https://www.hotelelpradobarranquilla.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-i18n="consultarFuente3"
+        >
+            Consultar sitio oficial
+        </a>
+
+    </main>
+
+
+    <!-- ========================================
+         SISTEMA DE IDIOMAS
+    ======================================== -->
+
+    <script>
+
+        const traducciones = {
+
+            es: {
+
+                tituloPagina: "Los Fantasmas del Hotel El Prado",
+
+                navInicio: "Inicio",
+                navMitos: "Mitos y Leyendas",
+                navOvnis: "Ovnis",
+                navLugares: "Lugares Misteriosos",
+                navParanormal: "Paranormal",
+
+                volver: "← Volver",
+
+                tituloPrincipal: "Los Fantasmas del Hotel El Prado",
+
+                categoria: "Paranormal / Relatos y leyendas urbanas",
+
+                imagenAlt: "Fachada histórica del Hotel El Prado de Barranquilla",
+
+                tituloHistoria: "La historia",
+
+                parrafo1:
+                    "En el tradicional barrio El Prado de Barranquilla se encuentra uno de los edificios más emblemáticos de la ciudad: el Hotel El Prado. Su arquitectura republicana, sus amplios corredores, sus jardines y su larga trayectoria han convertido este lugar en un símbolo de la memoria histórica y cultural del Caribe colombiano.",
+
+                parrafo2:
+                    "Sin embargo, alrededor de su historia también surgieron rumores sobre supuestas apariciones y fenómenos paranormales. Las versiones comenzaron a circular con mayor fuerza en septiembre de 2022, cuando un creador de contenido publicó una historia en Instagram en la que mencionaba que buscaría fantasmas dentro del establecimiento.",
+
+                parrafo3:
+                    "La publicación generó comentarios y especulaciones entre los usuarios de las redes sociales. Algunos relatos hablaban de supuestas presencias en sectores del hotel, especialmente en espacios antiguos y zonas poco concurridas. Estas versiones alimentaron la curiosidad de quienes sienten fascinación por los misterios y las historias sobrenaturales de Barranquilla.",
+
+                parrafo4:
+                    "Ante la situación, la administración del Hotel El Prado publicó un comunicado en septiembre de 2022 en el que rechazó las afirmaciones sobre supuestos fantasmas en sus instalaciones y aclaró que no existían evidencias de actividad paranormal en el establecimiento.",
+
+                parrafo5:
+                    "El episodio despertó el interés de los medios de comunicación y convirtió al hotel en protagonista de una curiosa polémica relacionada con el misterio, las redes sociales y las leyendas urbanas de la ciudad.",
+
+                tituloHistoriaHotel: "Un hotel lleno de historia",
+
+                parrafo6:
+                    "Más allá de los rumores, el Hotel El Prado posee una historia que merece ser conocida. Su construcción comenzó en 1927 y fue inaugurado en 1930. Desde entonces, se convirtió en uno de los establecimientos hoteleros más representativos de Colombia y en un referente arquitectónico de Barranquilla.",
+
+                parrafo7:
+                    "Su arquitectura, sus espacios tradicionales y su importancia para el desarrollo turístico de la ciudad han contribuido a crear una atmósfera particular. Para muchos visitantes, recorrer sus instalaciones es también acercarse a una parte importante de la historia de Barranquilla.",
+
+                tituloMisterio: "Entre la historia y el misterio",
+
+                parrafo8:
+                    "¿Existen realmente fantasmas en el Hotel El Prado? Hasta el momento, no existen pruebas verificables que demuestren la presencia de fenómenos sobrenaturales en sus instalaciones. Lo que sí está documentado es la controversia de 2022 y la respuesta pública de la administración del hotel.",
+
+                parrafo9:
+                    "Esta historia demuestra cómo un edificio histórico puede convertirse en escenario de rumores, especulaciones y relatos que despiertan la imaginación colectiva. En Archivos Misteriosos, el caso se presenta como parte de las historias urbanas que alimentan la fascinación por lo desconocido en el Caribe colombiano.",
+
+                tituloFuente: "Fuentes",
+
+                referencia1:
+                    "Caracol Radio. (2022). ¿Por qué el hotel El Prado en Barranquilla negó la presencia de fantasmas?",
+
+                consultarFuente1: "Consultar fuente",
+
+                referencia2:
+                    "El Heraldo. (2022). Hotel El Prado desmiente que haya fantasmas en sus instalaciones.",
+
+                consultarFuente2: "Consultar fuente",
+
+                referencia3:
+                    "Hotel El Prado. Historia institucional del establecimiento.",
+
+                consultarFuente3: "Consultar sitio oficial"
+
+            },
+
+
+            en: {
+
+                tituloPagina: "The Ghosts of Hotel El Prado",
+
+                navInicio: "Home",
+                navMitos: "Myths and Legends",
+                navOvnis: "UFOs",
+                navLugares: "Mysterious Places",
+                navParanormal: "Paranormal",
+
+                volver: "← Back to",
+
+                tituloPrincipal: "The Ghosts of Hotel El Prado",
+
+                categoria: "Paranormal / Urban Tales and Legends",
+
+                imagenAlt: "Historic facade of Hotel El Prado in Barranquilla",
+
+                tituloHistoria: "The Story",
+
+                parrafo1:
+                    "In the traditional El Prado neighborhood of Barranquilla stands one of the city's most iconic buildings: Hotel El Prado. Its republican architecture, spacious corridors, gardens, and long history have made it a symbol of the historical and cultural heritage of the Colombian Caribbean.",
+
+                parrafo2:
+                    "However, rumors about alleged apparitions and paranormal phenomena have also emerged around its history. These stories began circulating more widely in September 2022, when a content creator posted an Instagram story mentioning that he would look for ghosts inside the hotel.",
+
+                parrafo3:
+                    "The post generated comments and speculation among social media users. Some accounts mentioned alleged presences in certain areas of the hotel, especially in older spaces and less frequented areas. These stories sparked the curiosity of those fascinated by mysteries and supernatural tales from Barranquilla.",
+
+                parrafo4:
+                    "In response, Hotel El Prado's management published a statement in September 2022 rejecting claims about alleged ghosts on its premises and clarifying that there was no evidence of paranormal activity at the establishment.",
+
+                parrafo5:
+                    "The episode attracted media attention and turned the hotel into the center of a curious controversy involving mystery, social media, and the city's urban legends.",
+
+                tituloHistoriaHotel: "A Hotel Full of History",
+
+                parrafo6:
+                    "Beyond the rumors, Hotel El Prado has a history worth discovering. Its construction began in 1927 and it was inaugurated in 1930. Since then, it has become one of Colombia's most representative hotels and an architectural landmark in Barranquilla.",
+
+                parrafo7:
+                    "Its architecture, traditional spaces, and importance to the city's tourism development have contributed to its distinctive atmosphere. For many visitors, exploring its facilities also means discovering an important part of Barranquilla's history.",
+
+                tituloMisterio: "Between History and Mystery",
+
+                parrafo8:
+                    "Are there really ghosts at Hotel El Prado? So far, there is no verifiable evidence demonstrating the presence of supernatural phenomena on its premises. What is documented is the 2022 controversy and the hotel's public response.",
+
+                parrafo9:
+                    "This story shows how a historic building can become the setting for rumors, speculation, and accounts that awaken the collective imagination. At Archivos Misteriosos, this case is presented as part of the urban stories that fuel the fascination with the unknown in the Colombian Caribbean.",
+
+                tituloFuente: "Sources",
+
+                referencia1:
+                    "Caracol Radio. (2022). Why did Hotel El Prado in Barranquilla deny the presence of ghosts?",
+
+                consultarFuente1: "View source",
+
+                referencia2:
+                    "El Heraldo. (2022). Hotel El Prado denies the existence of ghosts on its premises.",
+
+                consultarFuente2: "View source",
+
+                referencia3:
+                    "Hotel El Prado. Official history of the establishment.",
+
+                consultarFuente3: "Visit official website"
+
+            }
+
+        };
+
+
+        // Función para cambiar el idioma
+        function cambiarIdioma(idioma) {
+
+            if (!traducciones[idioma]) return;
+
+            // Traducir textos
+            document.querySelectorAll("[data-i18n]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.textContent = traducciones[idioma][clave];
+                }
+
+            });
+
+            // Traducir textos alternativos
+            document.querySelectorAll("[data-i18n-alt]").forEach(elemento => {
+
+                const clave = elemento.getAttribute("data-i18n-alt");
+
+                if (traducciones[idioma][clave] !== undefined) {
+                    elemento.setAttribute("alt", traducciones[idioma][clave]);
+                }
+
+            });
+
+            // Actualizar título de la pestaña
+            document.title = traducciones[idioma].tituloPagina;
+
+            // Actualizar idioma del documento
+            document.documentElement.lang = idioma;
+
+            // Actualizar botones activos
+            document.getElementById("btn-es").classList.toggle(
+                "activo",
+                idioma === "es"
+            );
+
+            document.getElementById("btn-en").classList.toggle(
+                "activo",
+                idioma === "en"
+            );
+
+            // Guardar idioma seleccionado
+            localStorage.setItem("idiomaArchivosMisteriosos", idioma);
+
+        }
+
+
+        // Cargar idioma guardado
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const idiomaGuardado =
+                localStorage.getItem("idiomaArchivosMisteriosos") || "es";
+
+            cambiarIdioma(idiomaGuardado);
+
+        });
+
+    </script>
+
+</body>
+
+</html>
